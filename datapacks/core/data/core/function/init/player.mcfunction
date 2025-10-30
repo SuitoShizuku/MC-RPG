@@ -1,4 +1,4 @@
-
+item replace entity @s saddle with saddle[enchantments={"core:direct_attack":1}] 1
 
 scoreboard players set @s Core.Level 1
 scoreboard players set @s Core.Level.Experience 0
