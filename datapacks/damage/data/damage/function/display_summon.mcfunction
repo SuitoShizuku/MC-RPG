@@ -16,8 +16,8 @@ execute if score @s Core.Math.Crit matches 0 run data merge entity @s {\
     brightness: {block:15,sky:15}\
 }
 
-execute if score @s Core.Math.Crit matches 0 run data merge entity @s {\
-    text:[{"text":"Critical",extra:[{"text":"\uE800",font:"core:damage"},{"score": {"name": "@n[tag=damage.attacker]","objective": "Core.Math.Damage"}}]}],\
+execute if score @s Core.Math.Crit matches 1 run data merge entity @s {\
+    text:[{"text":"Critical",extra:[{"text":"\uE800\n",font:"core:damage"},{"score": {"name": "@n[tag=damage.attacker]","objective": "Core.Math.Damage"}}]}],\
     Tags:["damage.display"],\
     transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],scale:[1.4f,1.4f,1.4f]},\
     background:false,\
@@ -29,8 +29,8 @@ execute if score @s Core.Math.Crit matches 0 run data merge entity @s {\
     brightness: {block:15,sky:15}\
 }
 
-execute if score @s Core.Math.Crit matches 0 run data merge entity @s {\
-    text:[{"text":"SuperCritical",extra:[{"text":"\uE800",font:"core:damage"},{"score": {"name": "@n[tag=damage.attacker]","objective": "Core.Math.Damage"}}]}],\
+execute if score @s Core.Math.Crit matches 2 run data merge entity @s {\
+    text:[{"text":"SuperCritical",extra:[{"text":"\uE800\n",font:"core:damage"},{"score": {"name": "@n[tag=damage.attacker]","objective": "Core.Math.Damage"}}]}],\
     Tags:["damage.display"],\
     transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],scale:[1.4f,1.4f,1.4f]},\
     background:false,\
