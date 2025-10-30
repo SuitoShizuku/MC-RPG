@@ -1,7 +1,8 @@
 scoreboard players remove @s damage.text.life 1
 execute if score @s damage.text.life matches 0 run return run kill @s
 
-execute store result entity @s text_opacity int 12 run scoreboard players get @s damage.text.life
+# execute store result entity @s text_opacity int 12 run scoreboard players get @s damage.text.life
+execute if score @s damage.text.life matches ..6 store result entity @s text_opacity int 40 run scoreboard players get @s damage.text.life
 
 tp @s ~ ~0.05 ~
 execute if score @s damage.text.life matches 10 run return run data modify entity @s transformation.scale set value [1.15,1.15,1.15]
