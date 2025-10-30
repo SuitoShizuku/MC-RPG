@@ -3,7 +3,20 @@
         "pick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{"items": "lime_glazed_terracotta","components": {"custom_data": {"exp":1}}}]
+                "items": [
+                    {
+                        "items": "lime_glazed_terracotta",
+                        "components": {
+                            "custom_data": {
+                                "exp": 1
+                            }
+                        },
+                        "count": {
+                            "min": 1,
+                            "max": 99
+                        }
+                    }
+                ]
             }
         }
     },
