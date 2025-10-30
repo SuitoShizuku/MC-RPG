@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "core:level/exp/clear_100"
+    "function": "core:level/exp/clear_10000"
   }
 }
