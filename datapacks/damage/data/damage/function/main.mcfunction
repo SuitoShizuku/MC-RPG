@@ -1,0 +1,1 @@
+execute as @e[type=text_display,tag=damage.display] at @s run function damage:show
