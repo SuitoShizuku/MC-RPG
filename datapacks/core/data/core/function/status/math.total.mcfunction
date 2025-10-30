@@ -9,18 +9,18 @@ scoreboard players operation @s Core.Math.Dummy.f += @s Core.Status.Attack.Base
 scoreboard players operation @s Core.Status.Attack = @s Core.Math.Dummy.f
 
 # HEALTH
-scoreboard players operation @s Core.Math.Dummy.f = @s Core.Status.Health
+scoreboard players operation @s Core.Math.Dummy.f = @s Core.Status.Health.Max
 scoreboard players operation @s Core.Math.Dummy.f *= @s Core.Status.Health.Buff
 scoreboard players operation @s Core.Math.Dummy.f /= #100 Core.Math.Int
 scoreboard players operation @s Core.Math.Dummy.f += @s Core.Status.Health.Base
-scoreboard players operation @s Core.Status.Health = @s Core.Math.Dummy.f
+scoreboard players operation @s Core.Status.Health.Max = @s Core.Math.Dummy.f
 
 # MAGICPOINT
 scoreboard players operation @s Core.Math.Dummy.f = @s Core.Status.MagicPoint.Base
 scoreboard players operation @s Core.Math.Dummy.f *= @s Core.Status.MagicPoint.Buff
 scoreboard players operation @s Core.Math.Dummy.f /= #100 Core.Math.Int
 scoreboard players operation @s Core.Math.Dummy.f += @s Core.Status.MagicPoint.Base
-scoreboard players operation @s Core.Status.MagicPoint = @s Core.Math.Dummy.f
+scoreboard players operation @s Core.Status.MagicPoint.Max = @s Core.Math.Dummy.f
 
 # DEFENSE
 scoreboard players operation @s Core.Math.Dummy.f = @s Core.Status.Defense.Base
