@@ -21,4 +21,5 @@ function core:damage/correction/res
 scoreboard players operation @s Core.Math.Dummy.e *= @s Core.Math.Dummy.d
 scoreboard players operation @s Core.Math.Dummy.e /= $100 Core.Math.Int
 # 最終ダメージ
+execute if score @s Core.Math.Dummy.e matches 9999.. run scoreboard players set @s Core.Math.Dummy.e 9999
 scoreboard players operation @s Core.Math.Damage = @s Core.Math.Dummy.e
