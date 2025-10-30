@@ -1,1 +1,0 @@
-execute summon zombie run function core:enemy/set_data/model
