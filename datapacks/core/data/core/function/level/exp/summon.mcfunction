@@ -1,11 +1,11 @@
 scoreboard players operation @s Core.Math.Dummy.a = @s Enemy.drop.Experience
 scoreboard players operation @s Core.Math.Dummy.a %= $100 Core.Math.Int
-execute if score @s Core.Math.Dummy.a matches 1.. run function core:level/exp/summon.1_99
+execute if score @s Core.Math.Dummy.a matches 1.. as @a[distance=..40] run function core:level/exp/summon.1_99
 scoreboard players operation @s Core.Math.Dummy.a = @s Enemy.drop.Experience
 scoreboard players operation @s Core.Math.Dummy.a /= $100 Core.Math.Int
 scoreboard players operation @s Core.Math.Dummy.a %= $100 Core.Math.Int
-execute if score @s Core.Math.Dummy.a matches 1.. run function core:level/exp/summon.100_9900
+execute if score @s Core.Math.Dummy.a matches 1.. as @a[distance=..40] run function core:level/exp/summon.100_9900
 scoreboard players operation @s Core.Math.Dummy.a = @s Enemy.drop.Experience
 scoreboard players operation @s Core.Math.Dummy.a /= $10000 Core.Math.Int
 scoreboard players operation @s Core.Math.Dummy.a %= $100 Core.Math.Int
-execute if score @s Core.Math.Dummy.a matches 1.. run function core:level/exp/summon.10000_990000
+execute if score @s Core.Math.Dummy.a matches 1.. as @a[distance=..40] run function core:level/exp/summon.10000_990000
