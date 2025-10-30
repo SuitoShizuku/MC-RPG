@@ -1,1 +1,1 @@
-execute summon parched run function core:enemy/set_data/sandback
+$execute summon parched run function core:enemy/set_data/sandback {level:$(level)}

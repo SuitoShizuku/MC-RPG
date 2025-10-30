@@ -1,4 +1,4 @@
-data merge entity @s {NoAI:1b,equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}}}}
+data merge entity @s {NoAI:1b,equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}}},Glowing:true}
 
 # 
 # テンプレートモンスター
