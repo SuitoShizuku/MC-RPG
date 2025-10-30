@@ -1,5 +1,5 @@
 execute if score @s Core.Level matches 100.. run return fail
-scoreboard players operation @s Core.Level.Point -= @s Core.Level.NextLevelPoint
+scoreboard players operation @s Core.Level.Experience -= @s Core.Level.NextLevelPoint
 scoreboard players add @s Core.Level 1
 
 # 必要経験値の計算  :   「前回の必要経験値 * 1.075」

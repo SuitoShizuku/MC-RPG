@@ -58,12 +58,14 @@ scoreboard objectives add Core.Status.DamageRes.7 dummy
 
 # 武器用スコア
 scoreboard objectives add Core.Weapon.Level dummy
+scoreboard objectives add Core.Weapon.Attack dummy
 scoreboard objectives add Core.Weapon.StatusType dummy
+scoreboard objectives add Core.Weapon.SubStatus dummy
 scoreboard objectives add Core.Weapon.SubStatus.Type dummy
 
 
 # レベル用スコア
 scoreboard objectives add Core.Level dummy
-scoreboard objectives add Core.Level.Point dummy
+scoreboard objectives add Core.Level.Experience dummy
 scoreboard objectives add Core.Level.NextLevelPoint dummy
 scoreboard objectives add Core.Level.OldLevelPoint dummy
