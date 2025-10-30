@@ -4,7 +4,7 @@ scoreboard objectives add damage.type dummy
 
 
 data merge storage damage:damage {color:[\
-    {crit:"#ffffff",normal:"#a0a0a0"},\
+    {crit:"#ffffff",normal:"#7f7fff"},\
     {crit:"#ffffff",normal:"#a0a0a0"},\
     {crit:"#ffffff",normal:"#a0a0a0"},\
     {crit:"#ffffff",normal:"#a0a0a0"},\
