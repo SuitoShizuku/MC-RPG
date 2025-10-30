@@ -16,7 +16,9 @@
             },
             "nbt": "{Tags:[\"n\"]}",
             "movement": {
-              "fall_distance": 0.1
+              "fall_distance": {
+                "min": 0.01
+              }
             }
           }
         },
