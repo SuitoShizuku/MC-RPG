@@ -1,6 +1,6 @@
 tag @s add damage.display
 scoreboard players add @s damage.text.count 1
-scoreboard players set @s damage.text.life 30
+scoreboard players set @s damage.text.life 24
 scoreboard players operation @s Core.Math.Crit = @n[tag=damage.attacker] Core.Math.Crit
 
 execute if score @s Core.Math.Crit matches 0 run data merge entity @s {\
