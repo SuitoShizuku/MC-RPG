@@ -21,5 +21,4 @@ function core:damage/correction/res
 scoreboard players operation @s Core.Math.Dummy.e *= @s Core.Math.Dummy.d
 scoreboard players operation @s Core.Math.Dummy.e /= $100 Core.Math.Int
 # 最終ダメージ
-scoreboard players operation @n[tag=damage.victim] Core.Math.Damage = @s Core.Math.Dummy.e
-# 攻撃を受けた側に最終ダメージが入る。
+scoreboard players operation @s Core.Math.Damage = @s Core.Math.Dummy.e
