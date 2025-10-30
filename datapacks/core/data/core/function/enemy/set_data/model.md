@@ -17,3 +17,4 @@ scoreboard players set @s Core.Status.DamageRes.4 ${樹属性耐性}
 scoreboard players set @s Core.Status.DamageRes.5 ${雫属性耐性}
 scoreboard players set @s Core.Status.DamageRes.6 ${焔属性耐性}
 scoreboard players set @s Core.Status.DamageRes.7 ${命属性耐性}
+scoreboard players set @s Enemy.drop.Experience ${ドロップ経験値}

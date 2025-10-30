@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "pick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{"items": "lime_glazed_terracotta","components": {"custom_data": {"exp":100}}}]
+            }
+        }
+    },
+    "rewards": {
+        "function": "core:level/exp/clear_100"
+    }
+}

@@ -1,4 +1,4 @@
-data merge entity @s {NoAI:1b,equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}}},Glowing:true}
+data merge entity @s {NoAI:1b,Tags:["enemy","enemy.normal","enemy.1"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}}},Glowing:true,active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b}]}
 
 # 
 # テンプレートモンスター
@@ -17,3 +17,4 @@ scoreboard players set @s Core.Status.DamageRes.4 100
 scoreboard players set @s Core.Status.DamageRes.5 100
 scoreboard players set @s Core.Status.DamageRes.6 100
 scoreboard players set @s Core.Status.DamageRes.7 100
+scoreboard players set @s Enemy.drop.Experience 3

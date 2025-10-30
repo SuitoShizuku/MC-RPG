@@ -1,0 +1,1 @@
+execute if entity @s[tag=enemy] run return run function core:death/enemy
