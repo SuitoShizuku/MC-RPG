@@ -13,3 +13,6 @@ scoreboard players set @s Core.Math.Dummy.f 4
 scoreboard players operation @s Core.Math.Dummy.f *= @s Core.Weapon.Level
 scoreboard players add @s Core.Math.Dummy.f 100
 scoreboard players operation @s Core.Weapon.SubStatus = @s Core.Math.Dummy.f
+
+    # サブステが会心率の場合半分にする
+execute if score @s Core.Weapon.SubStatus.Type matches 5 run scoreboard players operation @s Core.Weapon.SubStatus /= $2 Core.Math.Int
