@@ -1,0 +1,1 @@
+execute if score @s Core.Level.Point >= @s Core.Level.NextLevelPoint run function core:level/levelup
