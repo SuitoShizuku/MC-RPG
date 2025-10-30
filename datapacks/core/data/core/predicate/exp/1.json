@@ -8,6 +8,9 @@
         "slots": {
           "inventory.*": {
             "items": "minecraft:lime_glazed_terracotta",
+            "count": {
+              "min": 1
+            },
             "components": {
               "minecraft:custom_data": {
                 "exp": 1
@@ -24,6 +27,9 @@
         "slots": {
           "hotbar.*": {
             "items": "minecraft:lime_glazed_terracotta",
+            "count": {
+              "min": 1
+            },
             "components": {
               "minecraft:custom_data": {
                 "exp": 1
