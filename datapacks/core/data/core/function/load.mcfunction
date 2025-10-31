@@ -16,7 +16,7 @@ scoreboard players set $10 Core.Math.Int 10
 scoreboard players set $25 Core.Math.Int 25
 scoreboard players set $50 Core.Math.Int 50
 scoreboard players set $75 Core.Math.Int 75
-scoreboard players set $10 Core.Math.Int 80
+scoreboard players set $80 Core.Math.Int 80
 scoreboard players set $100 Core.Math.Int 100
 scoreboard players set $1000 Core.Math.Int 1000
 scoreboard players set $10000 Core.Math.Int 10000
