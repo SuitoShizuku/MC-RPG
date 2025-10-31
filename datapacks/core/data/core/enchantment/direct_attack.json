@@ -16,6 +16,14 @@
           "type": "minecraft:run_function",
           "function": "core:damage/direct/projectile"
         },
+        "requirements": {
+          "condition": "damage_source_properties",
+          "predicate": {
+            "direct_entity": {
+              "type": "#arrows"
+            }
+          }
+        },
         "enchanted": "victim",
         "affected": "damaging_entity"
       },
