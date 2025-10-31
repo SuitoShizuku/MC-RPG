@@ -1,0 +1,1 @@
+give @s red_dye[custom_data={weapon:0},max_stack_size=1]

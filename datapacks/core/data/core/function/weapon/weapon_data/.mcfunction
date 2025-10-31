@@ -1,0 +1,1 @@
+$function core:weapon/weapon_data/$(weapon)
