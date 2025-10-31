@@ -2,6 +2,8 @@
 scoreboard players operation @s Core.Math.Dummy.e = @s Core.Status.Attack
 scoreboard players operation @s Core.Math.Dummy.e *= @s Core.Weapon.DamageRate
 scoreboard players operation @s Core.Math.Dummy.e /= $10 Core.Math.Int
+# 通常攻撃の場合、フルチャージではない場合ダメージを(チャージ量の80%)%減少させる
+execute if score @s Core.Status.DamageDealt.Type matches 1 run function core:damage/correction/charge
 # 与えるダメージ計算
 scoreboard players set @s Core.Math.Dummy.d 0
 execute if score @s Core.Status.DamageDealt.Type matches 1 run scoreboard players operation @s Core.Math.Dummy.d = @s Core.Status.DamageDealt.Normal

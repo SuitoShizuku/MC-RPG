@@ -16,6 +16,7 @@ scoreboard players set $10 Core.Math.Int 10
 scoreboard players set $25 Core.Math.Int 25
 scoreboard players set $50 Core.Math.Int 50
 scoreboard players set $75 Core.Math.Int 75
+scoreboard players set $10 Core.Math.Int 80
 scoreboard players set $100 Core.Math.Int 100
 scoreboard players set $1000 Core.Math.Int 1000
 scoreboard players set $10000 Core.Math.Int 10000
@@ -90,6 +91,8 @@ scoreboard objectives add Core.Status.MagicPoint.Regene dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene.Speed dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene.Speed.t dummy
 
+# 検知用スコア
+scoreboard objectives add Core.Detect.FullCharge minecraft.custom:minecraft.damage_dealt_resisted
 
 # 敵用データ
 scoreboard objectives add Enemy.drop.Experience dummy
