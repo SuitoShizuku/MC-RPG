@@ -6,4 +6,5 @@ execute anchored eyes run function damage:display.summon
 
 tag @e remove damage.victim
 tag @e remove damage.attacker
+tag @e remove damage.projectile
 execute if score @s Core.Status.Health matches ..0 run function core:death/root
