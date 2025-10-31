@@ -1,4 +1,5 @@
 execute store result score @s Core.Math.Crit run random value 1..100
+tellraw @s {score:{name:"@s",objective:"Core.Math.Crit"}}
 execute if score @s Core.Status.CritRate > @s Core.Math.Crit run return run scoreboard players set @s Core.Math.Crit 0
 # 会心
 scoreboard players operation @s Core.Math.Dummy.d = @s Core.Math.Dummy.e
