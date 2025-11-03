@@ -1,1 +1,1 @@
-give @s red_dye[custom_data={core:{weapon:0}},max_stack_size=1,attribute_modifiers=[{amount:0,id:"minecraft:base_attack_damage",operation:"add_value",slot:"mainhand",type:"attack_damage"}]]
+give @s red_dye[custom_data={core:{tag:"weapon",id:"1"}},max_stack_size=1,attribute_modifiers=[{amount:0,id:"minecraft:base_attack_damage",operation:"add_value",slot:"mainhand",type:"attack_damage"}]]
