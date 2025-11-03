@@ -3,13 +3,12 @@
     "criteria": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": {},
         "item": {
-          "predicates": {
+          "components": {
             "minecraft:custom_data": {
               "core": {
-                "tag":"weapon",
-                "id":1
+                "tag": "weapon",
+                "id": 1
               }
             }
           }
