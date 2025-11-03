@@ -1,7 +1,7 @@
 {
     "criteria": {
         "skill": {
-            "trigger": "using_item",
+            "trigger": "consume_item",
             "conditions": {
                 "item": {
                     "components": {
