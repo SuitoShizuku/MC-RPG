@@ -1,14 +1,14 @@
 {
   "criteria": {
-    "skill": {
-      "trigger": "using_item",
+    "criteria": {
+      "trigger": "minecraft:using_item",
       "conditions": {
         "player": {},
         "item": {
           "predicates": {
-            "custom_data": {
-              "core": {
-                "weapon": 1
+            "minecraft:custom_data": {
+              "ib": {
+                "id":"consume"
               }
             }
           }
