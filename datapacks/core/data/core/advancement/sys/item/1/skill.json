@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "criteria": {
+    "use": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
@@ -16,6 +16,11 @@
       }
     }
   },
+  "requirements": [
+    [
+        "use"
+    ]
+  ],
   "rewards": {
     "function": "core:weapon/1/skill"
   }
