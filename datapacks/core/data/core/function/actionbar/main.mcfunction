@@ -1,0 +1,2 @@
+title @s actionbar [{"score":{name:"@s",objective:"Core.Status.MagicPoint"},color:"gray"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.MagicPoint.Max"},color:"blue"}]
+execute if score @s Core.Visual.ActionBar.MagicPoint.consume matches 1.. run function core:actionbar/mp.consume

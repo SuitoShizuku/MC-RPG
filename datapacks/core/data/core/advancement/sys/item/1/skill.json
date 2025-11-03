@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "skill": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_data": {
+                            "weapon": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "core:weapon/1/skill"
+    }
+}

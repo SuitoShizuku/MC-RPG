@@ -90,6 +90,9 @@ scoreboard objectives add Core.Status.Health.Heal dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene.Speed dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene.Speed.t dummy
+scoreboard objectives add Core.Visual.ActionBar.MagicPoint.consume dummy
+# クールタイム
+scoreboard objectives add Core.CoolTime.skill dummy
 
 # 検知用スコア
 scoreboard objectives add Core.Detect.FullCharge minecraft.custom:minecraft.damage_dealt_resisted
