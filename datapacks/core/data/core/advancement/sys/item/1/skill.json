@@ -7,8 +7,9 @@
         "item": {
           "predicates": {
             "minecraft:custom_data": {
-              "ib": {
-                "id":"consume"
+              "core": {
+                "weapon":"starsword",
+                "id":1
               }
             }
           }

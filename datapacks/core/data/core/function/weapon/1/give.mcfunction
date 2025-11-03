@@ -1,6 +1,6 @@
 
 give @s paper[\
-    custom_data={core:{weapon:1}},\
+    custom_data={core:{weapon:"starsword",id:1}},\
     max_stack_size=1,\
     attribute_modifiers=[{amount:0,id:"minecraft:base_attack_damage",operation:"add_value",slot:"mainhand",type:"attack_damage"}],\
     consumable={consume_seconds:100000.0f,animation:"none",has_consume_particles:false,sound:"intentionally_empty"},\
