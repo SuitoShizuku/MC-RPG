@@ -3,12 +3,11 @@
     "criteria": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": {},
         "item": {
           "predicates": {
             "minecraft:custom_data": {
               "core": {
-                "weapon":"starsword",
+                "tag":"weapon",
                 "id":1
               }
             }
