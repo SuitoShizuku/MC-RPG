@@ -1,18 +1,7 @@
 {
   "criteria": {
     "skill": {
-      "trigger": "using_item",
-      "conditions": {
-        "item": {
-          "components": {
-            "custom_data": {
-              "core": {
-                "weapon": 1
-              }
-            }
-          }
-        }
-      }
+      "trigger": "using_item"
     }
   },
   "rewards": {
