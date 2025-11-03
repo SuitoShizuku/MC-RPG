@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "pick": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "core": {
+                "tag": "weapon",
+                "id": "1"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pick"
+    ]
+  ],
+  "rewards": {
+    "function": "core:weapon/1/special"
+  }
+}
