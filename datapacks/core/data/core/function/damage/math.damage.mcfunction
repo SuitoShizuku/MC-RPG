@@ -5,7 +5,7 @@ scoreboard players operation @s Core.Math.Dummy.e /= $10 Core.Math.Int
 # 通常攻撃の場合、フルチャージではない場合ダメージを(チャージ量の80%)%減少させる
 scoreboard players set @s Core.Math.Dummy.d 100
 execute if score @s Core.Status.DamageDealt.Type matches 1 run function core:damage/correction/charge
-tellraw @s {score:{name:"@s",objective:"Core.Math.Dummy.d"}}
+tellraw @a {score:{name:"@s",objective:"Core.Math.Dummy.d"}}
 scoreboard players operation @s Core.Math.Dummy.d *= @s Core.Math.Dummy.e
 scoreboard players operation @s Core.Math.Dummy.d /= $100 Core.Math.Int
 scoreboard players operation @s Core.Math.Dummy.e = @s Core.Math.Dummy.d
