@@ -9,7 +9,7 @@
                 "minecraft:custom_data": {
                     "core": {
                         "tag":"weapon",
-                        "id": "1"
+                        "id": [1]
                     }
                 }
             }
