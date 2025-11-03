@@ -4,13 +4,14 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
-          "predicates": {
-            "minecraft:custom_data": {
-              "core": {
-                "id": 1
-              }
+            "items": "paper",
+            "components": {
+                "minecraft:custom_data": {
+                    "core": {
+                        "tag":"weapon"
+                    }
+                }
             }
-          }
         }
       }
     }
