@@ -8,7 +8,6 @@
             "components": {
                 "minecraft:custom_data": {
                     "core": {
-                        "tag":"weapon",
                         "id": 1
                     }
                 }
