@@ -5,7 +5,7 @@
       "conditions": {
         "player": {},
         "item": {
-          "components": {
+          "predicates": {
             "custom_data": {
               "core": {
                 "weapon": 1
