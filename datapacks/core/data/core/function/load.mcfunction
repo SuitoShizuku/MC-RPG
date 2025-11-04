@@ -1,26 +1,26 @@
 # 計算用スコア
-scoreboard objectives add Core.Math.Crit dummy
-scoreboard objectives add Core.Math.Damage dummy
+scoreboard objectives add Core.Calc.Crit dummy
+scoreboard objectives add Core.Calc.Damage dummy
     # 代入用スコア マウントメモ:{F:ステータス}
-scoreboard objectives add Core.Math.Dummy.a dummy
-scoreboard objectives add Core.Math.Dummy.b dummy
-scoreboard objectives add Core.Math.Dummy.c dummy
-scoreboard objectives add Core.Math.Dummy.d dummy
-scoreboard objectives add Core.Math.Dummy.e dummy
-scoreboard objectives add Core.Math.Dummy.f dummy
+scoreboard objectives add Core.Calc.Dummy.a dummy
+scoreboard objectives add Core.Calc.Dummy.b dummy
+scoreboard objectives add Core.Calc.Dummy.c dummy
+scoreboard objectives add Core.Calc.Dummy.d dummy
+scoreboard objectives add Core.Calc.Dummy.e dummy
+scoreboard objectives add Core.Calc.Dummy.f dummy
     # 計算用固定数値
-scoreboard objectives add Core.Math.Int dummy
-scoreboard players set $2 Core.Math.Int 2
-scoreboard players set $5 Core.Math.Int 5
-scoreboard players set $10 Core.Math.Int 10
-scoreboard players set $25 Core.Math.Int 25
-scoreboard players set $50 Core.Math.Int 50
-scoreboard players set $75 Core.Math.Int 75
-scoreboard players set $80 Core.Math.Int 80
-scoreboard players set $100 Core.Math.Int 100
-scoreboard players set $1000 Core.Math.Int 1000
-scoreboard players set $10000 Core.Math.Int 10000
-scoreboard players set $100000 Core.Math.Int 100000
+scoreboard objectives add Core.Calc.Int dummy
+scoreboard players set $2 Core.Calc.Int 2
+scoreboard players set $5 Core.Calc.Int 5
+scoreboard players set $10 Core.Calc.Int 10
+scoreboard players set $25 Core.Calc.Int 25
+scoreboard players set $50 Core.Calc.Int 50
+scoreboard players set $75 Core.Calc.Int 75
+scoreboard players set $80 Core.Calc.Int 80
+scoreboard players set $100 Core.Calc.Int 100
+scoreboard players set $1000 Core.Calc.Int 1000
+scoreboard players set $10000 Core.Calc.Int 10000
+scoreboard players set $100000 Core.Calc.Int 100000
 
 # ステータス用スコア
 scoreboard objectives add Core.Status.Attack dummy
