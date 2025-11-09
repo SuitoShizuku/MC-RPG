@@ -15,11 +15,11 @@ scoreboard players add @s Core.Artifact.7 0
 scoreboard players add @s Core.Artifact.8 0
 
 data modify storage artifact:temp Items set from block 0 0 0 Items
-function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[0].components."custom_data"
-function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[1].components."custom_data"
-function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[2].components."custom_data"
-function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[3].components."custom_data"
-function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[4].components."custom_data"
+function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[0].components."minecraft:custom_data"
+function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[1].components."minecraft:custom_data"
+function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[2].components."minecraft:custom_data"
+function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[3].components."minecraft:custom_data"
+function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[4].components."minecraft:custom_data"
 
 data remove storage artifact:temp Items
 tellraw @s {score:{name:"@s",objective:"Core.Artifact.1"}}
