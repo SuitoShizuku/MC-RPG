@@ -1,6 +1,6 @@
 tag @s add damage.victim
 
-execute as @n[tag=damage.attacker] run function core:damage/calc.damage
+execute as @n[tag=damage.attacker] run function core:damage/math.damage
 scoreboard players operation @s Core.Status.Health -= @n[tag=damage.attacker] Core.Calc.Damage
 execute anchored eyes run function damage:display.summon
 

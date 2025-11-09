@@ -99,7 +99,7 @@ scoreboard players operation @s Core.Status.CritDamage.Base += @s Core.Calc.Dumm
 #
 
 # 上昇分を武器レベルから計算
-function core:status/weapon/calc.weapon
+function core:status/weapon/math.weapon
 
 # 基礎攻撃力
 scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Weapon.Attack

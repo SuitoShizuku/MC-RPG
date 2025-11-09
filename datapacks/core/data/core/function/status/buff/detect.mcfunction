@@ -10,4 +10,4 @@ scoreboard players set @s Core.Status.DamageDealt.Normal.Buff 0
 scoreboard players set @s Core.Status.DamageDealt.Skill.Buff 0
 scoreboard players set @s Core.Status.DamageDealt.Special.Buff 0
 
-function core:status/weapon/calc.substatus
+function core:status/weapon/math.substatus
