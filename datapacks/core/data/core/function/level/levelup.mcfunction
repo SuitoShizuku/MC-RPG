@@ -8,7 +8,7 @@ scoreboard players operation @s Core.Level.OldLevelPoint *= @s Core.Level.NextLe
 scoreboard players operation @s Core.Level.OldLevelPoint /= $1000 Core.Calc.Int
 scoreboard players operation @s Core.Level.NextLevelPoint += @s Core.Level.OldLevelPoint
 # レベルによって上がるステータス
-function core:status/calc.total
+function core:status/math.total
 stopsound @s * entity.player.levelup
 playsound entity.player.levelup player @s ~ ~ ~ 1 1 0
 

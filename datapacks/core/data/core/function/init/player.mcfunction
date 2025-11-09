@@ -72,5 +72,5 @@ scoreboard players set @s Core.Status.MagicPoint.Regene.Speed.t 0
 
 
 
-function core:status/calc.total
+function core:status/math.total
 tag @s add core.after_init

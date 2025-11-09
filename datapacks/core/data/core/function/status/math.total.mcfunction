@@ -1,5 +1,5 @@
 function core:status/buff/detect
-function core:status/calc.base
+function core:status/math.base
 
 # ATTACK
 scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Status.Attack.Base
