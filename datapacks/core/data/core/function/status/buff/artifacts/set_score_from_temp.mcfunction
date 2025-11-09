@@ -1,0 +1,8 @@
+$scoreboard players add @s Core.Artifact.1 $(1)
+$scoreboard players add @s Core.Artifact.2 $(2)
+$scoreboard players add @s Core.Artifact.3 $(3)
+$scoreboard players add @s Core.Artifact.4 $(4)
+$scoreboard players add @s Core.Artifact.5 $(5)
+$scoreboard players add @s Core.Artifact.6 $(6)
+$scoreboard players add @s Core.Artifact.7 $(7)
+$scoreboard players add @s Core.Artifact.8 $(8)

@@ -79,6 +79,16 @@ scoreboard objectives add Core.Weapon.SubStatus dummy
 scoreboard objectives add Core.Weapon.SubStatus.Type dummy
 scoreboard objectives add Core.Weapon.DamageRate dummy
 
+# アーティファクト用スコア
+scoreboard objectives add Core.Artifact.1 dummy
+scoreboard objectives add Core.Artifact.2 dummy
+scoreboard objectives add Core.Artifact.3 dummy
+scoreboard objectives add Core.Artifact.4 dummy
+scoreboard objectives add Core.Artifact.5 dummy
+scoreboard objectives add Core.Artifact.6 dummy
+scoreboard objectives add Core.Artifact.7 dummy
+scoreboard objectives add Core.Artifact.8 dummy
+
 # レベル用スコア
 scoreboard objectives add Core.Level dummy
 scoreboard objectives add Core.Level.Experience dummy
