@@ -3,9 +3,6 @@ scoreboard players operation @s Core.Calc.Dummy.e = @s Core.Status.Attack
 scoreboard players operation @s Core.Calc.Dummy.e *= @s Core.Weapon.DamageRate
 scoreboard players operation @s Core.Calc.Dummy.e /= $10 Core.Calc.Int
 # tellraw @a {score:{name:"@s",objective:"Core.Calc.Dummy.d"}}
-scoreboard players operation @s Core.Calc.Dummy.d *= @s Core.Calc.Dummy.e
-scoreboard players operation @s Core.Calc.Dummy.d /= $100 Core.Calc.Int
-scoreboard players operation @s Core.Calc.Dummy.e = @s Core.Calc.Dummy.d
 # レベル補正
 function core:damage/player/correction/level
 scoreboard players operation @s Core.Calc.Dummy.e *= @s Core.Calc.Dummy.d
