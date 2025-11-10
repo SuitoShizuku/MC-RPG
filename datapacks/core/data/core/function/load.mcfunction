@@ -15,6 +15,7 @@ scoreboard players set $5 Core.Calc.Int 5
 scoreboard players set $10 Core.Calc.Int 10
 scoreboard players set $25 Core.Calc.Int 25
 scoreboard players set $50 Core.Calc.Int 50
+scoreboard players set $70 Core.Calc.Int 70
 scoreboard players set $75 Core.Calc.Int 75
 scoreboard players set $80 Core.Calc.Int 80
 scoreboard players set $100 Core.Calc.Int 100
