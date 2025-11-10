@@ -1,0 +1,54 @@
+{
+  "anvil_cost": 1,
+  "description": "直接的な攻撃検知プレイヤー",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "core:damage/player/direct/attacker"
+        },
+        "enchanted": "victim",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "core:damage/player/direct/projectile"
+        },
+        "requirements": {
+          "condition": "damage_source_properties",
+          "predicate": {
+            "direct_entity": {
+              "type": "#arrows"
+            }
+          }
+        },
+        "enchanted": "victim",
+        "affected": "damaging_entity"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "core:damage/player/direct/victim"
+        },
+        "enchanted": "victim",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "saddle"
+  ],
+  "supported_items": "minecraft:saddle",
+  "weight": 1
+}
