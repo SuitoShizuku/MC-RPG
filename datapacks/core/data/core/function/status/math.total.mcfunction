@@ -45,16 +45,12 @@ scoreboard players operation @s Core.Status.Speed = @s Core.Calc.Dummy.f
 
 # CRITRATE
 scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Status.CritRate.Base
-scoreboard players operation @s Core.Calc.Dummy.f *= @s Core.Status.CritRate.Buff
-scoreboard players operation @s Core.Calc.Dummy.f /= $100 Core.Calc.Int
-scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.CritRate.Base
+scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.CritRate.Buff
 scoreboard players operation @s Core.Status.CritRate = @s Core.Calc.Dummy.f
 
 # CRITDAMAGE
 scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Status.CritDamage.Base
-scoreboard players operation @s Core.Calc.Dummy.f *= @s Core.Status.CritDamage.Buff
-scoreboard players operation @s Core.Calc.Dummy.f /= $100 Core.Calc.Int
-scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.CritDamage.Base
+scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.CritDamage.Buff
 scoreboard players operation @s Core.Status.CritDamage = @s Core.Calc.Dummy.f
 
 # DEAL
