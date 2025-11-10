@@ -1,1 +1,1 @@
-$function core:weapon/weapon_data/$(weapon)
+$function core:$(tag)/$(tag)_data/$(id)
