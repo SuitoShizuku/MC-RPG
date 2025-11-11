@@ -7,6 +7,7 @@ execute positioned ~-0.5 ~-0.5 ~-0.5 run tag @e[tag=!damage.victim,type=!player,
 
 # 倍率設定
 scoreboard players set @s Core.Weapon.DamageRate 85
+scoreboard players set @s Core.Detect.FullCharge 1000
 function core:damage/math.damage
 
 execute as @e[tag=damage.sweep_victim] run function core:weapon/2/sweep_damage
