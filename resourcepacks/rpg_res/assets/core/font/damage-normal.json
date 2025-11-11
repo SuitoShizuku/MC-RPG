@@ -1,0 +1,20 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "core:font/display/normal.png",
+            "chars": [
+                "01234567",
+                "89ACEILP",
+                "RSTUacei",
+                "lprstu-."
+            ],
+            "ascent": 8,
+            "height": 9
+        },
+        {
+            "type": "reference",
+            "id": "core:damage-icon"
+        }
+    ]
+}

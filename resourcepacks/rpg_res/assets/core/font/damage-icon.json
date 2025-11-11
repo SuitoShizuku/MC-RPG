@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "core:font/display/icon.png",
+            "chars": [
+                "\uE800\uE801\uE802\uE803\uE804"
+            ],
+            "ascent": 8,
+            "height": 9
+        }
+    ]
+}
