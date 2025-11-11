@@ -6,7 +6,7 @@ execute anchored eyes run function damage:display.summon
 
 
 
-execute as @n[tag=damage.attacker] if score @s Core.Detect.FullCharge matches 1..2 at @s anchored eyes rotated ~ 90 positioned ^ ^-0.6 ^1.4 run function core:weapon/2/passive
+execute as @n[tag=damage.attacker] if score @s Core.Detect.FullCharge matches 1..2 at @s anchored eyes rotated ~ 0 positioned ^ ^-0.6 ^1.4 run function core:weapon/2/passive
 
 
 scoreboard players set @n[tag=damage.attacker] Core.Detect.FullCharge 0
