@@ -29,5 +29,6 @@ scoreboard players operation @s Core.Calc.Dummy.e /= $100 Core.Calc.Int
 # 基礎値調整では100分率を/10しているため、追加で/10
 scoreboard players operation @s Core.Calc.Dummy.e /= $10 Core.Calc.Int
 # 最終ダメージ
+execute if score @s Core.Calc.Dummy.e matches ..0 run scoreboard players set @s Core.Calc.Dummy.e 0
 execute if score @s Core.Calc.Dummy.e matches 9999.. run scoreboard players set @s Core.Calc.Dummy.e 9999
 scoreboard players operation @s Core.Calc.Damage = @s Core.Calc.Dummy.e

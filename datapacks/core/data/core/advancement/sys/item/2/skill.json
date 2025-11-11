@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+            "items": "paper",
+            "components": {
+                "minecraft:custom_data": {
+                    "core": {
+                        "tag":"weapon",
+                        "id": "2"
+                    }
+                }
+            }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use"
+    ]
+  ],
+  "rewards": {
+    "function": "core:weapon/2/skill"
+  }
+}
