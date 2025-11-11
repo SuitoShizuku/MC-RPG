@@ -14,11 +14,13 @@ scoreboard players set $2 Core.Calc.Int 2
 scoreboard players set $5 Core.Calc.Int 5
 scoreboard players set $10 Core.Calc.Int 10
 scoreboard players set $25 Core.Calc.Int 25
+scoreboard players set $32 Core.Calc.Int 32
 scoreboard players set $50 Core.Calc.Int 50
 scoreboard players set $70 Core.Calc.Int 70
 scoreboard players set $75 Core.Calc.Int 75
 scoreboard players set $80 Core.Calc.Int 80
 scoreboard players set $100 Core.Calc.Int 100
+scoreboard players set $320 Core.Calc.Int 320
 scoreboard players set $500 Core.Calc.Int 500
 scoreboard players set $1000 Core.Calc.Int 1000
 scoreboard players set $5000 Core.Calc.Int 5000
@@ -82,6 +84,10 @@ scoreboard objectives add Core.Weapon.StatusType dummy
 scoreboard objectives add Core.Weapon.SubStatus dummy
 scoreboard objectives add Core.Weapon.SubStatus.Type dummy
 scoreboard objectives add Core.Weapon.DamageRate dummy
+scoreboard objectives add Core.Weapon.Custom.2.passive.count dummy
+scoreboard objectives add Core.Weapon.Custom.2.passive.time dummy
+scoreboard objectives add Core.Weapon.Custom.2.skill.time dummy
+scoreboard objectives add Core.Weapon.Custom.2.skill.consume_mp dummy
 
 # アーティファクト用スコア
 scoreboard objectives add Core.Artifact.1 dummy

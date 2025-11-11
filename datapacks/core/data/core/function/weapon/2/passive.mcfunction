@@ -5,11 +5,9 @@ execute positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!damage.victim,type=!p
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 run tag @e[tag=!damage.victim,type=!player,dx=0,dy=0,dz=0] add damage.sweep_victim
 
-# 倍率設定
-scoreboard players set @s Core.Weapon.DamageRate 85
-scoreboard players set @s Core.Detect.FullCharge 1000
-function core:damage/math.damage
-
 execute as @e[tag=damage.sweep_victim] run function core:weapon/2/sweep_damage
+execute as @e[tag=damage.sweep_victim] run scoreboard players add @s Core.Weapon.Custom.2.passive.count 1
+execute as @n[tag=damage.sweep_victim] run scoreboard players set @s Core.Weapon.Custom.2.passive.time 60
+function core:weapon/2/buff
 
 tag @e remove damage.sweep_victim
