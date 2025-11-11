@@ -1,1 +1,1 @@
-$function core:$(tag)/$(tag)_data/$(id)
+$function core:$(tag)/$(id)/data
