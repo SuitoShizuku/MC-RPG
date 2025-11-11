@@ -12,11 +12,11 @@ scoreboard players operation @s Core.Calc.Dummy.e += @s Core.Calc.Dummy.d
 # 会心計算
 function core:damage/correction/crit
 # レベル補正
-function core:damage/correction/level {victim:"damage.sweep_victim"}
+function core:damage/correction/level {victim:"damage.sweep_victim.t"}
 scoreboard players operation @s Core.Calc.Dummy.e *= @s Core.Calc.Dummy.d
 scoreboard players operation @s Core.Calc.Dummy.e /= $1000 Core.Calc.Int
 # 属性耐性
-function core:damage/correction/res {victim:"damage.sweep_victim"}
+function core:damage/correction/res {victim:"damage.sweep_victim.t"}
 scoreboard players operation @s Core.Calc.Dummy.e *= @s Core.Calc.Dummy.d
 scoreboard players operation @s Core.Calc.Dummy.e /= $100 Core.Calc.Int
 # 基礎値調整では100分率を/10しているため、追加で/10
