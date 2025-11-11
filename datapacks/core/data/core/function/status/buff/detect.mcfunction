@@ -14,8 +14,8 @@ function core:status/weapon/math.substatus
 function core:status/buff/math.artifact
 
 
-execute if score @s Core.Weapon.Custom.2.passive.count matches 1 run scoreboard players add @s status.damage.buff.1 5
-execute if score @s Core.Weapon.Custom.2.passive.count matches 2 run scoreboard players add @s status.damage.buff.1 10
-execute if score @s Core.Weapon.Custom.2.passive.count matches 3 run scoreboard players add @s status.damage.buff.1 15
-execute if score @s Core.Weapon.Custom.2.passive.count matches 4 run scoreboard players add @s status.damage.buff.1 20
-execute if score @s Core.Weapon.Custom.2.passive.count matches 5.. run scoreboard players add @s status.damage.buff.1 25
+execute if score @s Core.Weapon.Custom.2.passive.count matches 1 run scoreboard players add @s Core.Status.Attack.Buff 5
+execute if score @s Core.Weapon.Custom.2.passive.count matches 2 run scoreboard players add @s Core.Status.Attack.Buff 10
+execute if score @s Core.Weapon.Custom.2.passive.count matches 3 run scoreboard players add @s Core.Status.Attack.Buff 15
+execute if score @s Core.Weapon.Custom.2.passive.count matches 4 run scoreboard players add @s Core.Status.Attack.Buff 20
+execute if score @s Core.Weapon.Custom.2.passive.count matches 5.. run scoreboard players add @s Core.Status.Attack.Buff 25
