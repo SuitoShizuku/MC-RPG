@@ -12,8 +12,8 @@ scoreboard players operation @s Core.Weapon.Attack = @s Core.Calc.Dummy.f
 scoreboard players set @s Core.Calc.Dummy.f 5
 scoreboard players operation @s Core.Calc.Dummy.f *= @s Core.Weapon.Level
 scoreboard players add @s Core.Calc.Dummy.f 150
-scoreboard players operation @s Core.Weapon.SubStatus = @s Core.Calc.Dummy.f
 scoreboard players operation @s Core.Calc.Dummy.f /= $10 Core.Calc.Int
+scoreboard players operation @s Core.Weapon.SubStatus = @s Core.Calc.Dummy.f
 
     # サブステが会心率の場合半分にする
 execute if score @s Core.Weapon.SubStatus.Type matches 5 run scoreboard players operation @s Core.Weapon.SubStatus /= $2 Core.Calc.Int
