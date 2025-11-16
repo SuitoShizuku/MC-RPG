@@ -1,1 +1,1 @@
-execute rotated ~ 0 positioned ^ ^-0.6 ^1.4 run function core:weapon/2/swing_sweep
+execute anchored eyes rotated ~ 0 positioned ^ ^-0.6 ^1.4 run function core:weapon/2/swing_sweep
