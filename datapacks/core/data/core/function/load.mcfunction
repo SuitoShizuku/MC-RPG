@@ -86,6 +86,7 @@ scoreboard objectives add Core.Weapon.SubStatus.Type dummy
 scoreboard objectives add Core.Weapon.DamageRate dummy
 scoreboard objectives add Core.Weapon.Custom.2.passive.count dummy
 scoreboard objectives add Core.Weapon.Custom.2.passive.time dummy
+scoreboard objectives add Core.Weapon.Custom.2.passive.swing dummy
 scoreboard objectives add Core.Weapon.Custom.2.skill.time dummy
 scoreboard objectives add Core.Weapon.Custom.2.skill.consume_mp dummy
 

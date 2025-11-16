@@ -1,0 +1,57 @@
+{
+  "anvil_cost": 0,
+  "description": "空振りエフェクト",
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "looking_at": {
+                      "nbt": "{Tags:[\"enemy\"]}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "Core.Weapon.Custom.2.passive.swing": {
+                    "min": 1
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "core:weapon/2/swing"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:paper",
+  "weight": 1
+}
