@@ -15,7 +15,9 @@
                 "predicate": {
                   "type_specific": {
                     "type": "minecraft:player",
-                    "looking_at": {}
+                    "looking_at": {
+                      "nbt": "{Tags:[\"enemy\"]}"
+                    }
                   }
                 }
               }
