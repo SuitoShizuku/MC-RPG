@@ -4,21 +4,6 @@
   "effects": {
     "minecraft:post_piercing_attack": [
       {
-        "requirements": {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "attacking_player",
-            "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
-                "looking_at": {
-                  "nbt": "{Tags:[\"enemy\"]}"
-                }
-              }
-            }
-          }
-        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "core:weapon/2/swing"
