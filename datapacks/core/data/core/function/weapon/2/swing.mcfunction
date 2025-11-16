@@ -1,5 +1,6 @@
 particle sweep_attack ~ ~ ~ 0 0 0 0 1 normal @a
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1 0
+scoreboard players set @s Core.Weapon.Custom.2.passive.swing 10
 
 execute rotated ~ 0 positioned ^ ^-0.6 ^1.4 positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!damage.victim,type=!player,dx=0,dy=0,dz=0] run return 0
 tag @s add damage.attacker
@@ -12,4 +13,3 @@ function core:weapon/2/buff
 
 tag @s remove damage.attacker
 tag @e remove damage.sweep_victim
-scoreboard players set @s Core.Weapon.Custom.2.passive.swing 10
