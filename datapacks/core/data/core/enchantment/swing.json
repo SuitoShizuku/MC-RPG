@@ -5,11 +5,11 @@
     "minecraft:post_piercing_attack": [
       {
         "requirements": {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
@@ -20,8 +20,11 @@
                     }
                   }
                 }
-              },
-              {
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
                 "condition": "minecraft:entity_scores",
                 "entity": "this",
                 "scores": {
@@ -30,8 +33,8 @@
                   }
                 }
               }
-            ]
-          }
+            }
+          ]
         },
         "effect": {
           "type": "minecraft:run_function",
