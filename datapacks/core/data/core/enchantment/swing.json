@@ -10,23 +10,8 @@
             {
               "condition": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "type_specific": {
-                    "type": "minecraft:player",
-                    "looking_at": {
-                      "nbt": "{Tags:[\"enemy\"]}"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "condition": "minecraft:inverted",
-              "term": {
                 "condition": "minecraft:entity_scores",
-                "entity": "this",
+                "entity": "attacker",
                 "scores": {
                   "Core.Weapon.Custom.2.passive.swing": {
                     "min": 1
