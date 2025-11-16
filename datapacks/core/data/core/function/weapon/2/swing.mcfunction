@@ -1,3 +1,4 @@
+execute if score @s Core.Weapon.Custom.2.passive.swing matches 1.. run return fail
 particle sweep_attack ~ ~ ~ 0 0 0 0 1 normal @a
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1 0
 scoreboard players set @s Core.Weapon.Custom.2.passive.swing 10

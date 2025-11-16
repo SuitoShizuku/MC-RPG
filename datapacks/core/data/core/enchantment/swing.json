@@ -5,21 +5,17 @@
     "minecraft:post_piercing_attack": [
       {
         "requirements": {
-          "condition": "minecraft:all_of",
-          "terms": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_scores",
-                "entity": "attacker",
-                "scores": {
-                  "Core.Weapon.Custom.2.passive.swing": {
-                    "min": 1
-                  }
-                }
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacking_player",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {}
               }
             }
-          ]
+          }
         },
         "effect": {
           "type": "minecraft:run_function",
