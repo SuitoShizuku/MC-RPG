@@ -1,4 +1,4 @@
-data merge entity @s {NoAI:1b,Tags:["enemy","enemy.normal","enemy.1"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}},mainhand:{}},drop_chances:{saddle:0},Glowing:true,active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b}]}
+data merge entity @s {NoAI:1b,Tags:["enemy","enemy.normal","enemy.1"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}},mainhand:{"id":"stick"}},drop_chances:{saddle:0},Glowing:true,active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b}]}
 
 # 
 # テンプレートモンスター
