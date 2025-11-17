@@ -74,3 +74,6 @@ scoreboard players set @s Core.Status.MagicPoint.Regene.Speed.t 0
 
 function core:status/math.total
 tag @s add core.after_init
+
+effect give @a resistance infinite 4 true
+effect give @a saturation infinite 0 true

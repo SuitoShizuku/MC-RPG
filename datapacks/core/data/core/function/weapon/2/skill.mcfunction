@@ -8,3 +8,9 @@ scoreboard players set @s Core.Weapon.Custom.2.skill.time 300
 scoreboard players operation @s Core.Weapon.Custom.2.skill.consume_mp = @s Core.Status.MagicPoint
 scoreboard players add @s Core.Weapon.Custom.2.skill.consume_mp 50
 scoreboard players operation @s Core.Weapon.Custom.2.skill.consume_mp *= $32 Core.Calc.Int
+
+# 最大で攻撃力85%まで
+scoreboard players set @s Core.Calc.Dummy.b 85
+scoreboard players operation @s Core.Calc.Dummy.b *= @s Core.Status.Attack
+scoreboard players operation @s Core.Calc.Dummy.b /= $100 Core.Calc.Int
+execute if score @s Core.Weapon.Custom.2.skill.consume_mp >= @s Core.Calc.Dummy.b run scoreboard players operation @s Core.Weapon.Custom.2.skill.consume_mp = @s Core.Calc.Dummy.b

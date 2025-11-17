@@ -1,0 +1,1 @@
+$execute summon parched run function core:enemy/set_data/slime {level:$(level)}
