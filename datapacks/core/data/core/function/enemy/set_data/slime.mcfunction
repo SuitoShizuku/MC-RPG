@@ -1,4 +1,4 @@
-data merge entity @s {NoAI:1b,Tags:["enemy","enemy.normal","enemy.2"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}},mainhand:{"id":"stick"}},drop_chances:{saddle:0,mainhand:0},active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b}],attributes:[{id:"scale",base:2}]}
+data merge entity @s {Tags:["enemy","enemy.normal","enemy.2"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}},mainhand:{"id":"stick"}},drop_chances:{saddle:0,mainhand:0},active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b}],attributes:[{id:"scale",base:2}]}
 
 # 
 # スライム

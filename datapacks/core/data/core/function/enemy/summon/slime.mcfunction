@@ -1,1 +1,1 @@
-$execute summon parched run function core:enemy/set_data/slime {level:$(level)}
+$execute summon slime run function core:enemy/set_data/slime {level:$(level)}
