@@ -10,7 +10,7 @@ scoreboard players operation @s Core.Calc.Dummy.e /= $1000 Core.Calc.Int
 # 防御力補正
 function core:damage/player/correction/defense
 scoreboard players operation @s Core.Calc.Dummy.e *= @s Core.Calc.Dummy.c
-scoreboard players operation @s Core.Calc.Dummy.e /= $1000 Core.Calc.Int
+scoreboard players operation @s Core.Calc.Dummy.e /= $100 Core.Calc.Int
 # 属性耐性 (プレイヤーは無効にするか検討中)
 # function core:damage/player/correction/res
 # scoreboard players operation @s Core.Calc.Dummy.e *= @s Core.Calc.Dummy.d
