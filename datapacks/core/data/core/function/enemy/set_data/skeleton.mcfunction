@@ -8,7 +8,7 @@ data merge entity @s {Tags:["enemy","enemy.normal","enemy.3"],equipment:{saddle:
 # 
 
 $execute store result score @s Core.Status.Health run data get storage enemy:hp Normal[$(level)] 0.7
-$execute store result score @s Core.Status.Attack run data get storage enemy:atk Normal[$(level)] 110
+$execute store result score @s Core.Status.Attack run data get storage enemy:atk Normal[$(level)] 1.1
 $scoreboard players set @s Core.Level $(level)
 scoreboard players operation @s Core.Status.Health.Max = @s Core.Status.Health
 scoreboard players set @s Core.Status.DamageRes.1 100
