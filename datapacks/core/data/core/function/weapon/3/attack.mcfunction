@@ -3,4 +3,4 @@ execute store result score @s Core.Calc.Dummy.b run function core:status/point/c
 execute if score @s Core.Calc.Dummy.b matches 1 run return 0
 scoreboard players set @s Core.CoolTime.Normal 10
 
-execute anchored eyes positioned ^ ^ ^ summon marker run function core:weapon/3/set_projectile_data
+execute anchored eyes positioned ^ ^ ^0.5 summon marker run function core:weapon/3/set_projectile_data
