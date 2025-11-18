@@ -9,4 +9,4 @@ execute positioned ~-0.75 ~-0.75 ~-0.75 run function func:hitbox_particle_1
 execute positioned ~-0.25 ~-0.25 ~-0.25 run function func:hitbox_particle_2
 tag @e remove projectile.weapon.3.hit
 tag @e remove projectile.weapon.3.detect
-# execute unless block ~ ~ ~ #air run kill @s
+execute unless block ~ ~ ~ #air run kill @s
