@@ -1,6 +1,8 @@
 {
     "values": [
         "player_attack",
-        "generic"
+        "generic",
+        "mob_attack",
+        "mob_projectile"
     ]
 }
