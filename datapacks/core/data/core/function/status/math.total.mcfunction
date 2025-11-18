@@ -54,9 +54,9 @@ scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.CritDamage.B
 scoreboard players operation @s Core.Status.CritDamage = @s Core.Calc.Dummy.f
 
 # DEAL
-scoreboard players set @s Core.Status.DamageDealt.Normal.Buff 0
-scoreboard players set @s Core.Status.DamageDealt.Skill.Buff 0
-scoreboard players set @s Core.Status.DamageDealt.Special.Buff 0
+scoreboard players set @s Core.Status.DamageDealt.Normal 0
+scoreboard players set @s Core.Status.DamageDealt.Skill 0
+scoreboard players set @s Core.Status.DamageDealt.Special 0
 scoreboard players operation @s Core.Status.DamageDealt.Normal = @s Core.Status.DamageDealt.Normal.Buff
 scoreboard players operation @s Core.Status.DamageDealt.Skill = @s Core.Status.DamageDealt.Skill.Buff
 scoreboard players operation @s Core.Status.DamageDealt.Special = @s Core.Status.DamageDealt.Special.Buff
