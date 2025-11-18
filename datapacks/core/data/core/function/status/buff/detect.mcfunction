@@ -19,3 +19,7 @@ execute if score @s Core.Weapon.Custom.2.passive.count matches 2 run scoreboard 
 execute if score @s Core.Weapon.Custom.2.passive.count matches 3 run scoreboard players add @s Core.Status.Attack.Buff 15
 execute if score @s Core.Weapon.Custom.2.passive.count matches 4 run scoreboard players add @s Core.Status.Attack.Buff 20
 execute if score @s Core.Weapon.Custom.2.passive.count matches 5.. run scoreboard players add @s Core.Status.Attack.Buff 25
+
+execute if score @s Core.Weapon.Custom.3.skill.time matches 1.. run scoreboard players set @s Core.Status.Attack.Buff 20
+execute if score @s Core.Weapon.Custom.3.skill.time matches 1.. run scoreboard players set @s Core.Status.Defense.Base 20
+execute if score @s Core.Weapon.Custom.3.skill.time matches 1.. run scoreboard players set @s Core.Status.DamageDealt.Normal.Buff 20

@@ -89,6 +89,7 @@ scoreboard objectives add Core.Weapon.Custom.2.passive.time dummy
 scoreboard objectives add Core.Weapon.Custom.2.passive.swing dummy
 scoreboard objectives add Core.Weapon.Custom.2.skill.time dummy
 scoreboard objectives add Core.Weapon.Custom.2.skill.consume_mp dummy
+scoreboard objectives add Core.Weapon.Custom.3.skill.time dummy
 
 # アーティファクト用スコア
 scoreboard objectives add Core.Artifact.1 dummy
@@ -124,6 +125,7 @@ scoreboard objectives add Core.Projectile.Life dummy
 
 # オブジェクトエンティティ用スコア
 scoreboard objectives add Core.Object.Life dummy
+scoreboard objectives add Core.Object.Timing dummy
 
 # 敵用データ
 scoreboard objectives add Enemy.drop.Experience dummy
