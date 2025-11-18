@@ -1,6 +1,7 @@
 execute if entity @s[tag=enemy.1] run function core:enemy/action/enemy.0
 execute if entity @s[tag=enemy.1] run function core:enemy/action/enemy.1
 execute if entity @s[tag=enemy.2] run function core:enemy/action/enemy.2
+execute if entity @s[tag=enemy.3] run function core:enemy/action/enemy.3
 
 
 
