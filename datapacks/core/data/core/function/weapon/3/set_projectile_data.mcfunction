@@ -1,5 +1,4 @@
 data merge entity @s {Tags:["projectile","projectile.weapon.3"]}
 scoreboard players set @s Core.Projectile.Life 25
 tp @s ~ ~ ~ ~ ~
-function func:set_name {player:"summoner"}
-tellraw @a {entity:"@s",nbt:"CustomName",type:"nbt",source:"entity"}
+function func:set_name {player:"projectile.weapon.3.summoner"}
