@@ -11,7 +11,9 @@ scoreboard objectives add Core.Calc.Dummy.f dummy
     # 計算用固定数値
 scoreboard objectives add Core.Calc.Int dummy
 scoreboard players set $2 Core.Calc.Int 2
+scoreboard players set $4 Core.Calc.Int 4
 scoreboard players set $5 Core.Calc.Int 5
+scoreboard players set $8 Core.Calc.Int 8
 scoreboard players set $10 Core.Calc.Int 10
 scoreboard players set $25 Core.Calc.Int 25
 scoreboard players set $32 Core.Calc.Int 32
@@ -91,6 +93,7 @@ scoreboard objectives add Core.Weapon.Custom.2.skill.time dummy
 scoreboard objectives add Core.Weapon.Custom.2.skill.consume_mp dummy
 scoreboard objectives add Core.Weapon.Custom.3.skill.time dummy
 scoreboard objectives add Core.Weapon.Custom.3.skill.normal_buff dummy
+scoreboard objectives add Core.Weapon.Custom.3.passive.buff dummy
 
 # アーティファクト用スコア
 scoreboard objectives add Core.Artifact.1 dummy
