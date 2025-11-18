@@ -1,5 +1,5 @@
-particle dust{color:[0.9,0.1,0.1],scale:0.9} ^ ^ ^ 0 0 0 0 1 normal @a
-particle dust{color:[0.9,0.1,0.1],scale:0.9} ^ ^ ^0.35 0 0 0 0 1 normal @a
+particle dust{color:[0.8,0.2,0.1],scale:0.6} ^ ^ ^ 0.2 0.2 0.2 0 2 normal @a
+particle dust{color:[0.8,0.2,0.1],scale:0.6} ^ ^ ^0.35 0.2 0.2 0.2 0 2 normal @a
 tp @s ^ ^ ^0.7
 
 execute positioned ~-0.75 ~-0.75 ~-0.75 run tag @e[tag=enemy,dx=0,dy=0,dz=0] add projectile.weapon.3.detect
