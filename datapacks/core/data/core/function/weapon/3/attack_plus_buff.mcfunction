@@ -1,4 +1,4 @@
-execute store result score @s Core.Calc.Dummy.b run function core:status/point/consume/mp {mp:3}
+execute store result score @s Core.Calc.Dummy.b run function core:status/point/consume/mp {mp:4}
 execute if score @s Core.Calc.Dummy.b matches 1 run return 0
 
 tag @s add projectile.weapon.3.summoner
