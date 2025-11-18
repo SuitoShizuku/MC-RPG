@@ -1,7 +1,7 @@
 execute on target run tag @s add enemy.2.target
 execute facing entity @n[tag=enemy.2.target] eyes positioned 0.0 0.0 0.0 run summon marker ^ ^ ^0.6 {Tags:["marker","enemy.2.marker"]}
 tp @n[tag=enemy.2.marker] ~ 0.6 ~
-tellraw @a {nbt:"entity",entity:"Pos"}
+tellraw @a [{nbt:"Pos",entity:"@n[tag=enemy.2.marker]",source:"entity"},"\n",{nbt:"Motion",entity:"@s",source:"entity"}]
 data modify entity @s Motion set from entity @n[tag=enemy.2.marker] Pos
 
 tag @n[tag=enemy.2.target] remove enemy.2.target
