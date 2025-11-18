@@ -3,4 +3,4 @@ execute as @e[tag=projectile.weapon.3.hit] at @s run function core:projectile/we
 tag @s remove projectile.weapon.3.damaging
 tag @e remove projectile.weapon.3.hit
 tag @e remove projectile.weapon.3.detect
-kill @s
+scoreboard players set @s Core.Projectile.Life 0
