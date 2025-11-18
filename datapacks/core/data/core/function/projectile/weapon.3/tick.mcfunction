@@ -1,3 +1,4 @@
+execute unless block ~ ~ ~ #air run kill @s
 particle dust{color:[0.9,0.1,0.1],scale:0.9} ^ ^ ^ 0 0 0 0 1 normal @a
 particle dust{color:[0.9,0.1,0.1],scale:0.9} ^ ^ ^0.35 0 0 0 0 1 normal @a
 tp @s ^ ^ ^0.7
