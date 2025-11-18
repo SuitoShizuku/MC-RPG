@@ -5,7 +5,12 @@
       "conditions": {
         "items": [
           {
-            "items": "lime_glazed_terracotta"
+            "items": "lime_glazed_terracotta",
+            "components": {
+              "custom_data": {
+                "exp": 10000
+              }
+            }
           }
         ]
       }
