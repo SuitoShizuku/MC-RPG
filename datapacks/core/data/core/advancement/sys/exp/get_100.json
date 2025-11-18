@@ -7,9 +7,7 @@
           {
             "items": "lime_glazed_terracotta",
             "components": {
-              "custom_data": {
-                "exp": "100"
-              }
+              "item_name": "exp:100~9900"
             }
           }
         ]
