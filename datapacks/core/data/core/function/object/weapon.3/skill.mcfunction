@@ -1,4 +1,5 @@
 tp @s ~ ~ ~ ~4 ~
+function func:magicarea_1
 scoreboard players remove @s Core.Object.Timing 1
 execute unless score @s Core.Object.Timing matches 1.. run return run scoreboard players set @s Core.Object.Timing 2
 execute if score @s Core.Object.Timing matches 2 run return run function func:magicarea_1
