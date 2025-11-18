@@ -1,0 +1,1 @@
+$execute summon slime run function core:enemy/set_data/targetblock {level:$(level)}

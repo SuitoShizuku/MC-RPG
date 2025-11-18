@@ -1,0 +1,1 @@
+scoreboard players set @s Core.Status.Health 100000
