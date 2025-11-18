@@ -5,3 +5,4 @@ scoreboard players set @s Core.CoolTime.Normal 10
 
 tag @s add projectile.weapon.3.summoner
 execute anchored eyes positioned ^ ^ ^0.5 summon marker run function core:weapon/3/set_projectile_data
+tag @s remove projectile.weapon.3.summoner
