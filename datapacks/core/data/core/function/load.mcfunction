@@ -122,6 +122,9 @@ scoreboard objectives add Core.Detect.FullCharge minecraft.custom:minecraft.dama
 # 射出系エンティティ用スコア
 scoreboard objectives add Core.Projectile.Life dummy
 
+# オブジェクトエンティティ用スコア
+scoreboard objectives add Core.Object.Life dummy
+
 # 敵用データ
 scoreboard objectives add Enemy.drop.Experience dummy
 scoreboard objectives add Enemy.Action.RandomTick dummy

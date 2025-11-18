@@ -1,0 +1,1 @@
+function core:object/weapon.3/skill
