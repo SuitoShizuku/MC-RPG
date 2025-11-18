@@ -90,6 +90,7 @@ scoreboard objectives add Core.Weapon.Custom.2.passive.swing dummy
 scoreboard objectives add Core.Weapon.Custom.2.skill.time dummy
 scoreboard objectives add Core.Weapon.Custom.2.skill.consume_mp dummy
 scoreboard objectives add Core.Weapon.Custom.3.skill.time dummy
+scoreboard objectives add Core.Weapon.Custom.3.skill.normal_buff dummy
 
 # アーティファクト用スコア
 scoreboard objectives add Core.Artifact.1 dummy
