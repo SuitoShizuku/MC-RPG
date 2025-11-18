@@ -113,6 +113,7 @@ scoreboard objectives add Core.Status.MagicPoint.Regene.Speed dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene.Speed.t dummy
 scoreboard objectives add Core.Visual.ActionBar.MagicPoint.consume dummy
 # クールタイム
+scoreboard objectives add Core.CoolTime.Normal dummy
 scoreboard objectives add Core.CoolTime.Skill dummy
 
 # 検知用スコア

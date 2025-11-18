@@ -1,3 +1,7 @@
+clear @s *[custom_data~{core:{tag:"weapon"}}]
+scoreboard players set @s Core.Weapon.StatusType 2
+scoreboard players set @s Core.Weapon.SubStatus.Type 1
+function core:status/math.total
 
 give @s paper[\
     custom_data={core:{tag:"weapon",id:"1"}},\
