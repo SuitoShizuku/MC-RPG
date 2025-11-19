@@ -1,5 +1,6 @@
 scoreboard players remove @s Core.Weapon.Custom.4.passive.count_time 1
 execute if function core:weapon/4/if_more_arrow run return fail
+execute unless function core:weapon/4/if_more_arrow run return fail
 playsound entity.arrow.shoot player @a ~ ~ ~ 0.9 1.3 0
 playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.6 1.8 0
 summon arrow ~ ~ ~ {"crit":0b,weapon:{id:"bow",components:{"minecraft:custom_data":{core:{"tag":"weapon","id":"4"}}}},Tags:["projectile","projectile.weapon.4","projectile.weapon.4.summon_now"],pickup:2b,item:{id:"arrow",components:{custom_data:{core:{"tag":"projectile",id:"1"}}}}}
