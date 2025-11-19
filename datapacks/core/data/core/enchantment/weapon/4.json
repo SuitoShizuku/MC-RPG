@@ -16,6 +16,19 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
+            "nbt": "{crit:0b}"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "core:weapon/4/set_normal_low_attack_arrow_data"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
             "nbt": "{crit:1b}"
           }
         },
