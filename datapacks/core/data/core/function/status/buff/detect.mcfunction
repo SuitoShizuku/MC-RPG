@@ -28,4 +28,4 @@ execute if entity @s[tag=projectile.weapon.3.by] run scoreboard players operatio
 execute if entity @s[tag=projectile.weapon.3.by] run scoreboard players operation @s Core.Status.DamageDealt.Skill.Buff += @s Core.Weapon.Custom.3.passive.buff
 execute if entity @s[tag=projectile.weapon.3.by] run scoreboard players operation @s Core.Status.DamageDealt.Special.Buff += @s Core.Weapon.Custom.3.passive.buff
 
-execute if score @s Core.Weapon.Custom.4.skill.time matches 1.. run scoreboard players set @s Core.Status.CritDamage 40
+execute if score @s Core.Weapon.Custom.4.skill.time matches 1.. run scoreboard players set @s Core.Status.CritDamage.Buff 40
