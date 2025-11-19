@@ -3,6 +3,7 @@
         "player_attack",
         "generic",
         "mob_attack",
-        "mob_projectile"
+        "mob_projectile",
+        "arrow"
     ]
 }
