@@ -12,6 +12,13 @@
     ],
     "minecraft:projectile_spawned": [
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{crit:1b}"
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "core:weapon/4/set_normal_attack_arrow_data"
@@ -31,6 +38,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "minecraft:bow",
+  "supported_items": "bow",
   "weight": 1
 }

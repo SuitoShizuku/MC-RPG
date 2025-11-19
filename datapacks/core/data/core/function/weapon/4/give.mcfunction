@@ -10,7 +10,7 @@ give @s bow[\
     custom_data={core:{tag:"weapon",id:"4"}},\
     max_stack_size=1,\
     attribute_modifiers=[{amount:-100,id:"minecraft:base_attack_damage",operation:"add_multiplied_total",slot:"mainhand",type:"attack_damage"},{amount:-2.4,id:"minecraft:base_attack_speed",operation:"add_value",slot:"mainhand",type:"attack_speed"},{amount:-99,id:"base_attack_reach",operation:"add_value",slot:"mainhand",type:"entity_interaction_range"}],\
-    consumable={consume_seconds:100000.0f,animation:"none",has_consume_particles:false,sound:"intentionally_empty"},\
+    consumable={consume_seconds:100000.0f,animation:"bow",has_consume_particles:false,sound:"intentionally_empty"},\
     use_effects={can_sprint:true,speed_multiplier:0.6f},\
     piercing_weapon={min_reach:0,max_reach:0},\
     enchantments={"core:weapon/4":1},\
