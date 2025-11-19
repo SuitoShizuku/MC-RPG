@@ -1,1 +1,1 @@
-say lc
+function core:weapon/4/skill
