@@ -1,6 +1,6 @@
 function core:status/point/regene/mp
 function core:actionbar/main
-
+function func:set_bow_charge_time
 
 execute if score @s Core.CoolTime.Skill matches 1.. run scoreboard players remove @s Core.CoolTime.Skill 1
 execute if score @s Core.CoolTime.Normal matches 1.. run scoreboard players remove @s Core.CoolTime.Normal 1

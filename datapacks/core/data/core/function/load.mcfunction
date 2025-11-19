@@ -126,6 +126,8 @@ scoreboard objectives add Core.CoolTime.Skill dummy
 
 # 検知用スコア
 scoreboard objectives add Core.Detect.FullCharge minecraft.custom:minecraft.damage_dealt_resisted
+scoreboard objectives add Core.Detect.BowCharge dummy
+scoreboard objectives add Core.Detect.BowChargeLog dummy
 
 # 射出系エンティティ用スコア
 scoreboard objectives add Core.Projectile.Life dummy

@@ -1,1 +1,2 @@
-$scoreboard players add @p[nbt={UUID:$(Owner)}] Core.Weapon.Custom.4.passive.count_time 2
+$execute if score @p[nbt={UUID:$(Owner)}] Core.Detect.BowChargeLog matches 25.. run scoreboard players add @p[nbt={UUID:$(Owner)}] Core.Weapon.Custom.4.passive.count_time 3
+$execute if score @p[nbt={UUID:$(Owner)}] Core.Detect.BowChargeLog matches 30.. run scoreboard players add @p[nbt={UUID:$(Owner)}] Core.Weapon.Custom.4.passive.count_time 3
