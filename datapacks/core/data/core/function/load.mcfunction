@@ -137,6 +137,9 @@ scoreboard objectives add Core.Object.Life dummy
 scoreboard objectives add Core.Object.Timing dummy
 
 # 敵用データ
+team add enemy "敵エネミー"
+team modify enemy friendlyFire false
+team modify enemy collisionRule never
 scoreboard objectives add Enemy.drop.Experience dummy
 scoreboard objectives add Enemy.Action.RandomTick dummy
 scoreboard objectives add Enemy.Action.NextActionTick dummy

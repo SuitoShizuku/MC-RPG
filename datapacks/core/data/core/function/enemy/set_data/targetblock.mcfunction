@@ -1,4 +1,4 @@
-data merge entity @s {Silent:true,Size:0,NoAI:1b,Tags:["enemy","enemy.normal","enemy.0"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}}},drop_chances:{saddle:0},active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b},{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b}],attributes:[{id:"scale",base:2.1}]}
+data merge entity @s {Silent:true,Size:0,NoAI:1b,Tags:["enemy","enemy.normal","enemy.0"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}}},drop_chances:{saddle:0},active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b},{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b}],attributes:[{id:"scale",base:2.1}],Team:"enemy"}
 
 # 
 # テンプレートモンスター
