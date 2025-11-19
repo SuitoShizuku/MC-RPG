@@ -11,6 +11,7 @@ scoreboard objectives add Core.Calc.Dummy.f dummy
     # 計算用固定数値
 scoreboard objectives add Core.Calc.Int dummy
 scoreboard players set $2 Core.Calc.Int 2
+scoreboard players set $3 Core.Calc.Int 3
 scoreboard players set $4 Core.Calc.Int 4
 scoreboard players set $5 Core.Calc.Int 5
 scoreboard players set $8 Core.Calc.Int 8
