@@ -94,6 +94,8 @@ scoreboard objectives add Core.Weapon.Custom.2.skill.consume_mp dummy
 scoreboard objectives add Core.Weapon.Custom.3.skill.time dummy
 scoreboard objectives add Core.Weapon.Custom.3.skill.normal_buff dummy
 scoreboard objectives add Core.Weapon.Custom.3.passive.buff dummy
+scoreboard objectives add Core.Weapon.Custom.4.passive.count_time dummy
+scoreboard objectives add Core.Weapon.Custom.4.skill.time dummy
 
 # アーティファクト用スコア
 scoreboard objectives add Core.Artifact.1 dummy

@@ -1,0 +1,1 @@
+execute if score @s Core.Weapon.Custom.4.passive.count_time matches 1.. anchored eyes positioned ^ ^ ^ run function core:weapon/4/summon_arrow
