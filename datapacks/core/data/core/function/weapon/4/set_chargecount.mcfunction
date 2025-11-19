@@ -1,1 +1,1 @@
-$scoreboard players add @p[nbt={UUID:$(Owner)}] Core.Weapon.Custom.4.passive.count_time 1
+$scoreboard players add @p[nbt={UUID:$(Owner)}] Core.Weapon.Custom.4.passive.count_time 2
