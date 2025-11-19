@@ -4,7 +4,8 @@
 # レベル*0.3+5	%
 
     # 基礎攻撃力
-scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Weapon.Level
+scoreboard players set @s Core.Calc.Dummy.f 10
+scoreboard players operation @s Core.Calc.Dummy.f *= @s Core.Weapon.Level
 scoreboard players add @s Core.Calc.Dummy.f 250
 scoreboard players operation @s Core.Weapon.Attack = @s Core.Calc.Dummy.f
     # サブステ
