@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "Core.Visual.ActionBar.MagicPoint.consume": {
+      "min": 1
+    },
+    "Core.Visual.ActionBar.Health.consume": {
+      "min": 1
+    },
+    "Core.CoolTime.Skill": {
+      "max": 0
+    }
+  }
+}

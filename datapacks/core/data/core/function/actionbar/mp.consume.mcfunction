@@ -1,4 +1,4 @@
 scoreboard players remove @s Core.Visual.ActionBar.MagicPoint.consume 1
 execute if score @s Core.Visual.ActionBar.MagicPoint.consume matches 10000 run scoreboard players set @s Core.Visual.ActionBar.MagicPoint.consume 0
-execute if score @s Core.Visual.ActionBar.MagicPoint.consume matches 1.. run title @s actionbar [{"score":{name:"@s",objective:"Core.Status.MagicPoint"},color:"light_purple"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.MagicPoint.Max"},color:"blue"}]
-execute if score @s Core.Visual.ActionBar.MagicPoint.consume matches 10001.. run title @s actionbar [{"score":{name:"@s",objective:"Core.Status.MagicPoint"},color:"aqua"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.MagicPoint.Max"},color:"blue"}]
+# execute if score @s Core.Visual.ActionBar.MagicPoint.consume matches 1.. run title @s actionbar [{"score":{name:"@s",objective:"Core.Status.MagicPoint"},color:"light_purple"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.MagicPoint.Max"},color:"blue"}]
+# execute if score @s Core.Visual.ActionBar.MagicPoint.consume matches 10001.. run title @s actionbar [{"score":{name:"@s",objective:"Core.Status.MagicPoint"},color:"aqua"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.MagicPoint.Max"},color:"blue"}]

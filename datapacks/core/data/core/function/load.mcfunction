@@ -1,13 +1,14 @@
 # 計算用スコア
 scoreboard objectives add Core.Calc.Crit dummy
 scoreboard objectives add Core.Calc.Damage dummy
-    # 代入用スコア マウントメモ:{F:ステータス}
+    # 代入用スコア マウントメモ:{F:ステータス, g:アクションバー}
 scoreboard objectives add Core.Calc.Dummy.a dummy
 scoreboard objectives add Core.Calc.Dummy.b dummy
 scoreboard objectives add Core.Calc.Dummy.c dummy
 scoreboard objectives add Core.Calc.Dummy.d dummy
 scoreboard objectives add Core.Calc.Dummy.e dummy
 scoreboard objectives add Core.Calc.Dummy.f dummy
+scoreboard objectives add Core.Calc.Dummy.g dummy
     # 計算用固定数値
 scoreboard objectives add Core.Calc.Int dummy
 scoreboard players set $2 Core.Calc.Int 2
@@ -119,7 +120,10 @@ scoreboard objectives add Core.Status.Health.Heal dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene.Speed dummy
 scoreboard objectives add Core.Status.MagicPoint.Regene.Speed.t dummy
+scoreboard objectives add Core.Visual.ActionBar.Health.consume dummy
 scoreboard objectives add Core.Visual.ActionBar.MagicPoint.consume dummy
+scoreboard objectives add Core.Visual.ActionBar.CoolTime.max dummy
+scoreboard objectives add Core.Visual.ActionBar.CoolTime.percent dummy
 # クールタイム
 scoreboard objectives add Core.CoolTime.Normal dummy
 scoreboard objectives add Core.CoolTime.Skill dummy

@@ -1,0 +1,4 @@
+scoreboard players remove @s Core.Visual.ActionBar.Health.consume 1
+execute if score @s Core.Visual.ActionBar.Health.consume matches 10000 run scoreboard players set @s Core.Visual.ActionBar.Health.consume 0
+# execute if score @s Core.Visual.ActionBar.Health.consume matches 1.. run title @s actionbar [{"score":{name:"@s",objective:"Core.Status.Health"},color:"light_purple"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.Health.Max"},color:"blue"}]
+# execute if score @s Core.Visual.ActionBar.Health.consume matches 10001.. run title @s actionbar [{"score":{name:"@s",objective:"Core.Status.Health"},color:"aqua"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.Health.Max"},color:"blue"}]
