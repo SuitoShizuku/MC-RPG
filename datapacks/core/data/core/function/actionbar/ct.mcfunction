@@ -1,4 +1,4 @@
-execute if score @s Core.CoolTime.Skill matches 0 run return run scoreboard players set @s Core.Visual.ActionBar.CoolTime.max 0
+execute if score @s Core.CoolTime.Skill matches 1 run return run scoreboard players set @s Core.Visual.ActionBar.CoolTime.max 0
 
 scoreboard players operation @s Core.Calc.Dummy.g = @s Core.CoolTime.Skill
 scoreboard players operation @s Core.Calc.Dummy.g /= $20 Core.Calc.Int
