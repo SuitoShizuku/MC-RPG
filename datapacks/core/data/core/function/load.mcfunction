@@ -1,7 +1,7 @@
 # 計算用スコア
 scoreboard objectives add Core.Calc.Crit dummy
 scoreboard objectives add Core.Calc.Damage dummy
-    # 代入用スコア マウントメモ:{F:ステータス, g:アクションバー}
+    # 代入用スコア マウントメモ:{F:ステータス, g&h:アクションバー}
 scoreboard objectives add Core.Calc.Dummy.a dummy
 scoreboard objectives add Core.Calc.Dummy.b dummy
 scoreboard objectives add Core.Calc.Dummy.c dummy
@@ -9,6 +9,7 @@ scoreboard objectives add Core.Calc.Dummy.d dummy
 scoreboard objectives add Core.Calc.Dummy.e dummy
 scoreboard objectives add Core.Calc.Dummy.f dummy
 scoreboard objectives add Core.Calc.Dummy.g dummy
+scoreboard objectives add Core.Calc.Dummy.h dummy
     # 計算用固定数値
 scoreboard objectives add Core.Calc.Int dummy
 scoreboard players set $2 Core.Calc.Int 2
