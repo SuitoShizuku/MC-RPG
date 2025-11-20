@@ -1,4 +1,4 @@
-title @s actionbar [{"score":{name:"@s",objective:"Core.Status.MagicPoint"},color:"gray"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.MagicPoint.Max"},color:"blue"}]
+# title @s actionbar [{"score":{name:"@s",objective:"Core.Status.MagicPoint"},color:"gray"},{"text":"/",color:"gray"},{"score":{name:"@s",objective:"Core.Status.MagicPoint.Max"},color:"blue"}]
 execute if score @s Core.Visual.ActionBar.MagicPoint.consume matches 1.. run function core:actionbar/mp.consume
 execute if score @s Core.Visual.ActionBar.Health.consume matches 1.. run function core:actionbar/hp.consume
 execute if score @s Core.CoolTime.Skill matches 1.. run function core:actionbar/ct
