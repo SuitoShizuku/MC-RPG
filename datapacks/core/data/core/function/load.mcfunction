@@ -17,6 +17,7 @@ scoreboard players set $4 Core.Calc.Int 4
 scoreboard players set $5 Core.Calc.Int 5
 scoreboard players set $8 Core.Calc.Int 8
 scoreboard players set $10 Core.Calc.Int 10
+scoreboard players set $20 Core.Calc.Int 20
 scoreboard players set $25 Core.Calc.Int 25
 scoreboard players set $32 Core.Calc.Int 32
 scoreboard players set $50 Core.Calc.Int 50
@@ -124,6 +125,7 @@ scoreboard objectives add Core.Visual.ActionBar.Health.consume dummy
 scoreboard objectives add Core.Visual.ActionBar.MagicPoint.consume dummy
 scoreboard objectives add Core.Visual.ActionBar.CoolTime.max dummy
 scoreboard objectives add Core.Visual.ActionBar.CoolTime.percent dummy
+scoreboard objectives add Core.Visual.ActionBar.CoolTime.value dummy
 # クールタイム
 scoreboard objectives add Core.CoolTime.Normal dummy
 scoreboard objectives add Core.CoolTime.Skill dummy

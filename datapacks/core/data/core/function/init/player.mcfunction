@@ -71,6 +71,7 @@ scoreboard players set @s Core.Status.MagicPoint.Regene.Speed.t 0
 
 scoreboard players set @s Core.Visual.ActionBar.CoolTime.max 0
 scoreboard players set @s Core.Visual.ActionBar.CoolTime.percent 0
+scoreboard players set @s Core.Visual.ActionBar.CoolTime.value 0
 scoreboard players set @s Core.Visual.ActionBar.Health.consume 0
 scoreboard players set @s Core.Visual.ActionBar.MagicPoint.consume 0
 
