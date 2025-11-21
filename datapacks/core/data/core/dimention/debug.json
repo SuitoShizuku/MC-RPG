@@ -1,0 +1,13 @@
+{
+    "type": "core:debug",
+    "generator": {
+        "seed": 0,
+        "type": "minecraft:flat",
+        "settings": "minecraft:overworld",
+        "biome_source": {
+            "seed": 0,
+            "type": "fixed",
+            "biome": "minecraft:plains"
+        }
+    }
+}
