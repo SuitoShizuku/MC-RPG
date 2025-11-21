@@ -1,0 +1,21 @@
+{
+  "type": "core:debug",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 60,
+          "block": "stone"
+        },
+        {
+          "height": 40,
+          "block": "minecraft:white_concrete"
+        }
+      ]
+    }
+  }
+}

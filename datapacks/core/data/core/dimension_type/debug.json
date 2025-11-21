@@ -1,0 +1,13 @@
+{
+  "timelines": "#minecraft:universal",
+  "coordinate_scale": 1,
+  "logical_height": 512,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "ambient_light": 1,
+  "has_skylight": true,
+  "has_ceiling": false,
+  "min_y": 0,
+  "height": 624,
+  "monster_spawn_light_level": 1,
+  "monster_spawn_block_light_limit": 1
+}
