@@ -116,6 +116,8 @@ scoreboard objectives add Core.Level dummy
 scoreboard objectives add Core.Level.Experience dummy
 scoreboard objectives add Core.Level.NextLevelPoint dummy
 scoreboard objectives add Core.Level.OldLevelPoint dummy
+team add EXP "経験値"
+team modify EXP color green
 
 # 消費ステータス用スコア
 scoreboard objectives add Core.Status.Health.Heal dummy
