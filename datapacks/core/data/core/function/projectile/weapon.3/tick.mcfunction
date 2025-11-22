@@ -1,7 +1,7 @@
 particle dust_color_transition{from_color:[0.8,0.1,0.2],to_color:[1.0,0.1,0.3],scale:0.6} ^ ^ ^ 0.15 0.15 0.15 0 2 normal @a
 particle dust_color_transition{from_color:[0.8,0.1,0.2],to_color:[1.0,0.1,0.3],scale:0.6} ^ ^ ^0.35 0.15 0.15 0.15 0 2 normal @a
-particle instant_effect{color:[0.8,0.1,0.2],power:1.4} ^ ^ ^ 0.05 0.05 0.05 0 2 normal @a
-particle instant_effect{color:[0.8,0.1,0.2],power:1.4} ^ ^ ^0.35 0.05 0.05 0.05 0 2 normal @a
+particle instant_effect{color:[0.8,0.1,0.4],power:1.4} ^ ^ ^ 0.05 0.05 0.05 0 1 normal @a
+particle instant_effect{color:[0.8,0.1,0.4],power:1.4} ^ ^ ^0.35 0.05 0.05 0.05 0 1 normal @a
 function core:projectile/weapon.3/move
 
 execute positioned ~-0.75 ~-0.75 ~-0.75 run tag @e[tag=enemy,dx=0,dy=0,dz=0] add projectile.weapon.3.detect
