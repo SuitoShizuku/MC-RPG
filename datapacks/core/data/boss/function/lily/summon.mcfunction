@@ -1,0 +1,1 @@
+summon mannequin ~ ~ ~ {profile:{name:"curryishott"},hidden_layers:["cape"],description:{"text":"Lily"},Tags:["enemy","enemy.boss","enemy.boss.lily"]}
