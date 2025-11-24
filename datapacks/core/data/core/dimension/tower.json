@@ -1,0 +1,17 @@
+{
+  "type": "core:debug",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "core:tower",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 352,
+          "block": "stone"
+        }
+      ]
+    }
+  }
+}

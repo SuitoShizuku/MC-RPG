@@ -1,0 +1,55 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.overworld.lush_caves"
+      }
+    },
+    "minecraft:visual/sky_color": "#7ba4ff",
+    "minecraft:visual/ambient_particles": {
+      "modifier": "override",
+      "argument": []
+    }
+  },
+  "creature_spawn_probability": 0,
+  "carvers": [],
+  "downfall": 0.5,
+  "effects": {
+    "water_color": "#a8c5ff"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}
