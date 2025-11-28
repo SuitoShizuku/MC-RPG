@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:notice",
+  "title": "カスタムアーティファクト",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:clay_ball",
+        "components": {
+          "minecraft:enchantment_glint_override": true
+        }
+      },
+      "show_decorations": true,
+      "show_tooltip": false,
+      "width": 100,
+      "height": 1
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "ステータス効果を選択"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "atk",
+      "width": 300,
+      "label": "Attack",
+      "label_format": "percent",
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "hp",
+      "width": 300,
+      "label": "Health",
+      "label_format": "percent",
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "def",
+      "width": 300,
+      "label": "Defense",
+      "label_format": "percent",
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "mp",
+      "width": 300,
+      "label": "MagicPoint",
+      "label_format": "percent",
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "luck",
+      "width": 300,
+      "label": "Luck",
+      "label_format": "percent",
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "spd",
+      "width": 300,
+      "label": "Speed",
+      "label_format": "percent",
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "cr",
+      "width": 300,
+      "label": "CriticalRate",
+      "label_format": "percent",
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "cd",
+      "width": 300,
+      "label": "CriticalDamage",
+      "label_format": "percent",
+      "start": 0,
+      "end": 300,
+      "step": 1,
+      "initial": 0
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "wait_for_response",
+  "action": {
+    "label": "生成",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function core:status/buff/artifacts/generate {atk:$(atk),hp:$(hp),def:$(def),mp:$(mp),luck:$(luck),spd:$(spd),cr:$(cr),cd:$(cd)}"
+    }
+  }
+}
