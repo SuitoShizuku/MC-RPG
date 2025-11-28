@@ -39,11 +39,10 @@ scoreboard players operation @s Core.Status.Luck = @s Core.Calc.Dummy.f
 # SPEED
 scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Status.Speed.Base
 scoreboard players operation @s Core.Calc.Dummy.f *= @s Core.Status.Speed.Buff
+function core:status/math.speed {score:"Core.Calc.Dummy.f"}
 scoreboard players operation @s Core.Calc.Dummy.f /= $100 Core.Calc.Int
 scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.Speed.Base
 scoreboard players operation @s Core.Status.Speed = @s Core.Calc.Dummy.f
-scoreboard players remove @s Core.Calc.Dummy.f 100
-function core:status/math.speed {score:"Core.Calc.Dummy.f"}
 
 # CRITRATE
 scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Status.CritRate.Base
