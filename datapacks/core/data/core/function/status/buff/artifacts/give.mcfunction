@@ -8,9 +8,9 @@ custom_data={\
   6:5,\
   7:20,\
   8:0\
-}] 1
+},enchantments={"core:artifacts":1}] 1
 
-give @s red_dye[item_name="インチキ攻撃力のアーティファクト",custom_data={\
+give @s red_dye[item_name="インチキ攻撃力のアーティファクト",enchantments={"core:artifacts":1},custom_data={\
   1:100,\
   2:0,\
   3:0,\
@@ -20,7 +20,7 @@ give @s red_dye[item_name="インチキ攻撃力のアーティファクト",cus
   7:0,\
   8:0\
 }] 1
-give @s red_dye[item_name="インチキ魔力のアーティファクト",custom_data={\
+give @s red_dye[item_name="インチキ魔力のアーティファクト",enchantments={"core:artifacts":1},custom_data={\
   1:0,\
   2:0,\
   3:0,\
@@ -30,7 +30,7 @@ give @s red_dye[item_name="インチキ魔力のアーティファクト",custom
   7:0,\
   8:0\
 }] 1
-give @s red_dye[item_name="確定会心のアーティファクト",custom_data={\
+give @s red_dye[item_name="確定会心のアーティファクト",enchantments={"core:artifacts":1},custom_data={\
   1:0,\
   2:0,\
   3:0,\
@@ -40,7 +40,7 @@ give @s red_dye[item_name="確定会心のアーティファクト",custom_data=
   7:100,\
   8:0\
 }] 1
-give @s red_dye[item_name="インチキ会心倍率強化のアーティファクト",custom_data={\
+give @s red_dye[item_name="インチキ会心倍率強化のアーティファクト",enchantments={"core:artifacts":1},custom_data={\
   1:0,\
   2:0,\
   3:0,\

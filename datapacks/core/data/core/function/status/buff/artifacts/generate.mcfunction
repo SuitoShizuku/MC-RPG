@@ -1,4 +1,4 @@
-$give @s clay_ball[item_name={text:"カスタムアーティファクト",color:"gold"},enchantment_glint_override=true,max_stack_size=1,custom_data={\
+$give @s clay_ball[item_name={text:"カスタムアーティファクト",color:"gold"},enchantments={"core:artifacts":1},enchantment_glint_override=true,max_stack_size=1,custom_data={\
   1:$(atk),\
   2:$(hp),\
   3:$(def),\
