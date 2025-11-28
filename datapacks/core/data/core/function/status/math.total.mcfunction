@@ -9,7 +9,7 @@ scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.Attack.Base
 scoreboard players operation @s Core.Status.Attack = @s Core.Calc.Dummy.f
 
 # HEALTH
-scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Status.Health.Max
+scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Status.Health.Base
 scoreboard players operation @s Core.Calc.Dummy.f *= @s Core.Status.Health.Buff
 scoreboard players operation @s Core.Calc.Dummy.f /= $100 Core.Calc.Int
 scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.Health.Base
