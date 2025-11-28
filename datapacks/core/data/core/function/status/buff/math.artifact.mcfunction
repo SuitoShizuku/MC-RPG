@@ -22,3 +22,4 @@ function core:status/buff/artifacts/set_score_from_temp with storage artifact:te
 function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[4].components."minecraft:custom_data"
 
 data remove storage artifact:temp Items
+function core:status/math.total
