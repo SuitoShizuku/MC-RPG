@@ -42,7 +42,8 @@ scoreboard players operation @s Core.Calc.Dummy.f *= @s Core.Status.Speed.Buff
 scoreboard players operation @s Core.Calc.Dummy.f /= $100 Core.Calc.Int
 scoreboard players operation @s Core.Calc.Dummy.f += @s Core.Status.Speed.Base
 scoreboard players operation @s Core.Status.Speed = @s Core.Calc.Dummy.f
-function core:status/math.speed
+scoreboard players remove @s Core.Calc.Dummy.f 100
+function core:status/math.speed {score:"Core.Calc.Dummy.f"}
 
 # CRITRATE
 scoreboard players operation @s Core.Calc.Dummy.f = @s Core.Status.CritRate.Base
