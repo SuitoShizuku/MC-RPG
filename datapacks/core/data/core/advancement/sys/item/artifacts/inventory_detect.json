@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "inv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:sharpness"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inv"
+    ]
+  ],
+  "rewards": {
+    "function": "core:status/buff/artifacts/inventory_move"
+  }
+}

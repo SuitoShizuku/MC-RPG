@@ -1,0 +1,1 @@
+$execute summon skeleton run function core:enemy/set_data/skeleton {level:$(level)}
