@@ -22,11 +22,3 @@ function core:status/buff/artifacts/set_score_from_temp with storage artifact:te
 function core:status/buff/artifacts/set_score_from_temp with storage artifact:temp Items[4].components."minecraft:custom_data"
 
 data remove storage artifact:temp Items
-scoreboard players operation @s Core.Status.Attack.Buff += @s Core.Artifact.1
-scoreboard players operation @s Core.Status.Health.Buff += @s Core.Artifact.2
-scoreboard players operation @s Core.Status.Defense.Buff += @s Core.Artifact.3
-scoreboard players operation @s Core.Status.MagicPoint.Buff += @s Core.Artifact.4
-scoreboard players operation @s Core.Status.Luck.Buff += @s Core.Artifact.5
-scoreboard players operation @s Core.Status.Speed.Buff += @s Core.Artifact.6
-scoreboard players operation @s Core.Status.CritRate.Buff += @s Core.Artifact.7
-scoreboard players operation @s Core.Status.CritDamage.Buff += @s Core.Artifact.8

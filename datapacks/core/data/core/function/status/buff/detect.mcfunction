@@ -11,7 +11,16 @@ scoreboard players set @s Core.Status.DamageDealt.Skill.Buff 0
 scoreboard players set @s Core.Status.DamageDealt.Special.Buff 0
 
 function core:status/weapon/math.substatus
-function core:status/buff/math.artifact
+
+# アーティファクト
+scoreboard players operation @s Core.Status.Attack.Buff += @s Core.Artifact.1
+scoreboard players operation @s Core.Status.Health.Buff += @s Core.Artifact.2
+scoreboard players operation @s Core.Status.Defense.Buff += @s Core.Artifact.3
+scoreboard players operation @s Core.Status.MagicPoint.Buff += @s Core.Artifact.4
+scoreboard players operation @s Core.Status.Luck.Buff += @s Core.Artifact.5
+scoreboard players operation @s Core.Status.Speed.Buff += @s Core.Artifact.6
+scoreboard players operation @s Core.Status.CritRate.Buff += @s Core.Artifact.7
+scoreboard players operation @s Core.Status.CritDamage.Buff += @s Core.Artifact.8
 
 
 execute if score @s Core.Weapon.Custom.2.passive.count matches 1 run scoreboard players add @s Core.Status.Attack.Buff 5
