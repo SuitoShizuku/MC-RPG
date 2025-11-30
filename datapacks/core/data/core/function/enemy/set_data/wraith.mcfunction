@@ -1,4 +1,4 @@
-data merge entity @s {Tags:["enemy","enemy.normal","enemy.3"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}},mainhand:{"id":"bow"},head:{},chest:{},legs:{},feet:{}},LeftHanded:true,drop_chances:{saddle:0,mainhand:0,head:0},active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b},{id:"fire_resistance",duration:-1,show_icon:0b,amplifier:1,show_particles:0b}],attributes:[{id:"scale",base:0.8}],Team:"enemy"}
+data merge entity @s {Tags:["enemy","enemy.normal","enemy.4"],equipment:{saddle:{id:"saddle",components:{enchantments:{"core:direct_attack":1}}},mainhand:{"id":"bow"},head:{},chest:{},legs:{},feet:{}},LeftHanded:true,drop_chances:{saddle:0,mainhand:0,head:0},active_effects:[{duration:-1,show_icon:0b,amplifier:4b,id:"minecraft:resistance",show_particles:0b},{id:"fire_resistance",duration:-1,show_icon:0b,amplifier:1,show_particles:0b}],attributes:[{id:"scale",base:0.8}],Team:"enemy"}
 
 # 
 # 亡霊
