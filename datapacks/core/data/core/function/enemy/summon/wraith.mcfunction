@@ -1,0 +1,1 @@
+$execute summon vex run function core:enemy/set_data/wraith {level:$(level)}
