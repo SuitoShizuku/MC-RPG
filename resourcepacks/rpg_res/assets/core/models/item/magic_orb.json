@@ -36,5 +36,10 @@
 				"down": {"uv": [7, 0, 5, 2], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"head": {
+			"translation": [0, -40, 0]
+		}
+	}
 }
