@@ -15,3 +15,5 @@ scoreboard players set @s Core.Calc.Dummy.b 85
 scoreboard players operation @s Core.Calc.Dummy.b *= @s Core.Status.Attack
 scoreboard players operation @s Core.Calc.Dummy.b /= $10 Core.Calc.Int
 execute if score @s Core.Weapon.Custom.2.skill.consume_mp >= @s Core.Calc.Dummy.b run scoreboard players operation @s Core.Weapon.Custom.2.skill.consume_mp = @s Core.Calc.Dummy.b
+
+item modify entity @s weapon.mainhand core:cmd/0.true

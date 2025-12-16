@@ -13,5 +13,6 @@ give @s paper[\
     use_effects={can_sprint:true,speed_multiplier:1.0f},\
     piercing_weapon={},\
     enchantments={"core:weapon/3":1},\
-    enchantment_glint_override=false\
+    enchantment_glint_override=false,\
+    custom_model_data={flags:[false]}\
 ] 1

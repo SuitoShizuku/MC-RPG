@@ -1,0 +1,10 @@
+{
+    "function": "set_custom_model_data",
+    "flags": {
+        "mode": "insert",
+        "offset": 0,
+        "values": [
+            true
+        ]
+    }
+}

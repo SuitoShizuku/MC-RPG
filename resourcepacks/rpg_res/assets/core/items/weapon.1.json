@@ -1,0 +1,23 @@
+{
+    "model": {
+        "type": "condition",
+        "property": "selected",
+        "on_false": {
+            "type": "model",
+            "model": "core:item/weapon.1"
+        },
+        "on_true": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 0,
+            "on_true": {
+                "type": "model",
+                "model": "core:item/weapon.1_buff"
+            },
+            "on_false": {
+                "type": "model",
+                "model": "core:item/weapon.1"
+            }
+        }
+    }
+}
