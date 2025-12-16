@@ -14,5 +14,6 @@ give @s bow[\
     use_effects={can_sprint:true,speed_multiplier:0.6f},\
     piercing_weapon={},\
     enchantments={"core:weapon/4":1},\
-    enchantment_glint_override=false\
+    enchantment_glint_override=false,\
+    unbreakable={}\
 ] 1

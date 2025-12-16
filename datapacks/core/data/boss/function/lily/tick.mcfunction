@@ -1,0 +1,2 @@
+execute unless score @s Enemy.Boss.Lily.Step_CT matches 1.. if entity @p[distance=..2] run function boss:lily/backstep
+execute unless score @s Enemy.Boss.Lily.Teleport_CT matches 1.. if entity @p[distance=30..] run function boss:lily/teleport
