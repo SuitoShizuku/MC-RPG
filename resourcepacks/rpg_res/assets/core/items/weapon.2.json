@@ -11,8 +11,17 @@
             "property": "custom_model_data",
             "index": 0,
             "on_true": {
-                "type": "model",
-                "model": "core:item/weapon.2_buff"
+                "type": "composite",
+                "models": [
+                    {
+                        "type": "model",
+                        "model": "core:item/weapon.2"
+                    },
+                    {
+                        "type": "model",
+                        "model": "core:item/weapon.2_buff"
+                    }
+                ]
             },
             "on_false": {
                 "type": "model",

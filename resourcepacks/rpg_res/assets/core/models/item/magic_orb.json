@@ -1,7 +1,4 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "core:item/magic_orb",
 		"particle": "core:item/magic_orb"
@@ -22,7 +19,6 @@
 			}
 		},
 		{
-			"name": "cube_outline",
 			"from": [10, 7.5, 10],
 			"to": [6, 3.5, 6],
 			"light_emission": 15,
