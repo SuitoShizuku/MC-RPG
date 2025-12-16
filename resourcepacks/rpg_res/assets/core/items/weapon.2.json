@@ -4,7 +4,7 @@
         "property": "selected",
         "on_false": {
             "type": "model",
-            "model": "core:item/weapon.1"
+            "model": "core:item/weapon.2"
         },
         "on_true": {
             "type": "condition",
@@ -12,11 +12,11 @@
             "index": 0,
             "on_true": {
                 "type": "model",
-                "model": "core:item/weapon.1_buff"
+                "model": "core:item/weapon.2_buff"
             },
             "on_false": {
                 "type": "model",
-                "model": "core:item/weapon.1"
+                "model": "core:item/weapon.2"
             }
         }
     }

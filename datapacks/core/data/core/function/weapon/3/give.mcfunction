@@ -14,6 +14,6 @@ give @s paper[\
     piercing_weapon={},\
     enchantments={"core:weapon/3":1},\
     enchantment_glint_override=false,\
-    item_model="core:weapon.1",\
+    item_model="core:weapon.3",\
     custom_model_data={flags:[false]}\
 ] 1

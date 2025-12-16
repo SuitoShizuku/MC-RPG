@@ -12,5 +12,6 @@ give @s paper[\
     consumable={consume_seconds:100000.0f,animation:"none",has_consume_particles:false,sound:"intentionally_empty"},\
     use_effects={can_sprint:true,speed_multiplier:1.0f},\
     enchantment_glint_override=false,\
+    item_model="core:weapon.1",\
     custom_model_data={flags:[false]}\
 ] 1
