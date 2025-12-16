@@ -1,0 +1,1 @@
+scoreboard players add @s Enemy.Boss.Lily.Step_CT 5

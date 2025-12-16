@@ -1,0 +1,1 @@
+scoreboard players remove @s Enemy.Boss.Lily.Step_CT 1

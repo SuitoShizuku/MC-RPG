@@ -21,7 +21,27 @@
                 "enchanted": "victim",
                 "effect": {
                     "type": "run_function",
-                    "function": "boss:lily/victim"
+                    "function": "boss:lily/victim_direct"
+                },
+                "requirements": {
+                    "condition": "damage_source_properties",
+                    "predicate": {
+                        "is_direct": true
+                    }
+                }
+            },
+            {
+                "affected": "victim",
+                "enchanted": "victim",
+                "effect": {
+                    "type": "run_function",
+                    "function": "boss:lily/victim_non_direct"
+                },
+                "requirements": {
+                    "condition": "damage_source_properties",
+                    "predicate": {
+                        "is_direct": false
+                    }
                 }
             }
         ]
