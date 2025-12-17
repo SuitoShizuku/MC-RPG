@@ -1,6 +1,7 @@
 damage @s 0.1 mob_attack by @n[tag=enemy.boss.lily] from @n[tag=projectile.enemy.lily.drone]
 
 execute as @n[tag=enemy.boss.lily] at @s run function core:damage/player/direct/attacker
+tag @n[tag=enemy.boss.lily] add damage.pl_attack.attacker
 
 tag @s add damage.pl_attack.victim
 scoreboard players set @n[tag=damage.pl_attack.attacker] Core.Weapon.DamageRate 220
@@ -8,7 +9,7 @@ scoreboard players set @s Core.Visual.ActionBar.Health.consume 3
 
 execute as @n[tag=damage.pl_attack.attacker] run function core:damage/player/math.damage
 scoreboard players operation @s Core.Status.Health -= @n[tag=damage.pl_attack.attacker] Core.Calc.Damage
-execute anchored eyes run function damage:display.pl_attack.summon
+execute at @s anchored eyes run function damage:display.pl_attack.summon
 
 
 tag @e remove damage.pl_attack.victim
