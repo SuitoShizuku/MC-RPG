@@ -21,3 +21,6 @@ scoreboard players set @s Core.Status.DamageRes.7 100
 scoreboard players set @s Enemy.drop.Experience 120
 scoreboard players set @s Enemy.Action.RandomTick 90
 scoreboard players set @s Enemy.Action.NextActionTick 200
+
+
+$execute store result bossbar core:boss_hp max run data get storage enemy:hp Elite[$(level)] 1.3

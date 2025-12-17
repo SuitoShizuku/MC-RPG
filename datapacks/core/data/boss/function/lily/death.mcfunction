@@ -1,0 +1,1 @@
+bossbar remove core:boss_hp
