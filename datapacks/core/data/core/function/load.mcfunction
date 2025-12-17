@@ -165,6 +165,7 @@ scoreboard objectives add Enemy.Boss.Lily.Step_CT dummy
 scoreboard objectives add Enemy.Boss.Lily.Teleport_CT dummy
 scoreboard objectives add Enemy.Boss.Lily.Cut_CT dummy
 scoreboard objectives add Enemy.Boss.Lily.Step_CT dummy
+scoreboard objectives add Enemy.Boss.Lily.DroneDamage dummy
 
 # プレイヤー初期化
 execute as @a[tag=!core.after_init] run function core:init/player
