@@ -24,3 +24,4 @@ scoreboard players set @s Enemy.Action.NextActionTick 200
 
 
 $execute store result bossbar core:boss_hp max run data get storage enemy:hp Elite[$(level)] 1.3
+$execute store result bossbar core:boss_hp value run data get storage enemy:hp Elite[$(level)] 1.3
