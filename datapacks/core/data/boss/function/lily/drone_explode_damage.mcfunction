@@ -1,4 +1,4 @@
-damage @s 0.1 explosion by @n[tag=enemy.boss.lily] from @n[tag=projectile.enemy.lily.drone]
+damage @s 0.1 mob_attack by @n[tag=enemy.boss.lily] from @n[tag=projectile.enemy.lily.drone]
 
 execute as @n[tag=enemy.boss.lily] at @s run function core:damage/player/direct/attacker
 
