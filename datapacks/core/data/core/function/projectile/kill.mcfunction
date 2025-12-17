@@ -2,3 +2,4 @@ execute if entity @s[tag=projectile.weapon.3] run particle instant_effect{color:
 execute if entity @s[tag=projectile.weapon.3,tag=!projectile.weapon.3.damaged] run function core:projectile/weapon.3/object_hit
 execute if entity @s[tag=projectile.enemy.lily.drone] run function boss:lily/drone_explode
 kill @s
+kill @e[type=experience_orb]

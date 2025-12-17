@@ -1,7 +1,7 @@
 # ドローン召喚
-summon vex ~ ~ ~ {active_effects:[{id:"invisibility",amplifier:1,duration:-1,show_particles:false}],Tags:["projectile","projectile.enemy.lily.drone","projectile.enemy.lily.drone.new"],Health:1,drop_chances:{mainhand:0,offhand:0}}
-summon vex ~ ~ ~ {active_effects:[{id:"invisibility",amplifier:1,duration:-1,show_particles:false}],Tags:["projectile","projectile.enemy.lily.drone","projectile.enemy.lily.drone.new"],Health:1,drop_chances:{mainhand:0,offhand:0}}
-summon vex ~ ~ ~ {active_effects:[{id:"invisibility",amplifier:1,duration:-1,show_particles:false}],Tags:["projectile","projectile.enemy.lily.drone","projectile.enemy.lily.drone.new"],Health:1,drop_chances:{mainhand:0,offhand:0}}
+summon vex ~ ~ ~ {active_effects:[{id:"invisibility",amplifier:1,duration:-1,show_particles:false}],Tags:["projectile","projectile.enemy.lily.drone","projectile.enemy.lily.drone.new"],Health:1,drop_chances:{mainhand:0,offhand:0},Silent:1b,equipment:{saddle:{id:"saddle",components:{enchantments:{"boss:lily":1}}}}}
+summon vex ~ ~ ~ {active_effects:[{id:"invisibility",amplifier:1,duration:-1,show_particles:false}],Tags:["projectile","projectile.enemy.lily.drone","projectile.enemy.lily.drone.new"],Health:1,drop_chances:{mainhand:0,offhand:0},Silent:1b,equipment:{saddle:{id:"saddle",components:{enchantments:{"boss:lily":1}}}}}
+summon vex ~ ~ ~ {active_effects:[{id:"invisibility",amplifier:1,duration:-1,show_particles:false}],Tags:["projectile","projectile.enemy.lily.drone","projectile.enemy.lily.drone.new"],Health:1,drop_chances:{mainhand:0,offhand:0},Silent:1b,equipment:{saddle:{id:"saddle",components:{enchantments:{"boss:lily":1}}}}}
 scoreboard players set @e[tag=projectile.enemy.lily.drone.new] Core.Projectile.Life 100
 
 # ドローン爆破時のダメージを事前に
