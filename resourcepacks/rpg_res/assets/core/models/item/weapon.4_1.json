@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "core:item/weapon.4"
 	},
@@ -248,11 +250,11 @@
 			"scale": [1.2, 1.2, 1.2]
 		},
 		"firstperson_righthand": {
-			"rotation": [22, 28, 0],
-			"translation": [2.5, 4.5, 0]
+			"rotation": [19.87, 1.52, 1.52],
+			"translation": [2, 3.5, 1]
 		},
 		"firstperson_lefthand": {
-			"rotation": [22, -28, 0],
+			"rotation": [22, -22, 0],
 			"translation": [1.75, 4.5, 1.25]
 		},
 		"ground": {
