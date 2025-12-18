@@ -4,5 +4,5 @@ scoreboard players add @s Enemy.Boss.Lily.Step_CT 20
 data modify entity @s NoAI set value true
 schedule clear boss:lily/cut/1
 schedule function boss:lily/cut/1 7t append
-schedule function boss:lily/cut/1 10t append
-schedule function boss:lily/cut/1 13t append
+schedule function boss:lily/cut/2 10t append
+schedule function boss:lily/cut/3 13t append
