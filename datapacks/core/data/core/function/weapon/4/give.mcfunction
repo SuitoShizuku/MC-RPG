@@ -15,5 +15,6 @@ give @s bow[\
     piercing_weapon={},\
     enchantments={"core:weapon/4":1},\
     enchantment_glint_override=false,\
-    unbreakable={}\
+    unbreakable={},\
+    item_model="core:weapon.4"\
 ] 1
