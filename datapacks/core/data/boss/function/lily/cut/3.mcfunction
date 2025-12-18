@@ -1,1 +1,1 @@
-execute as @n[tag=enemy.boss.lily] at @s anchored eyes rotated ~ 0 positioned ^ ^-0.6 ^1 run function boss:lily/cut/detect
+execute as @n[tag=enemy.boss.lily] at @s anchored eyes rotated ~ 0 positioned ^ ^-0.6 ^1.5 run function boss:lily/cut/detect
