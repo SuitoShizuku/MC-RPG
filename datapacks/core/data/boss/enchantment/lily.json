@@ -44,6 +44,24 @@
                     }
                 }
             }
+        ],
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "boss:lily/teleport_detect"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags:[\"enemy.boss.lily.teleported\"]}",
+                        "flags": {
+                            "is_on_ground": true
+                        }
+                    }
+                }
+            }
         ]
     },
     "weight": 1
