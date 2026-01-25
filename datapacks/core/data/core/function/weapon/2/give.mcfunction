@@ -13,5 +13,6 @@ give @s paper[\
     use_effects={can_sprint:true,speed_multiplier:1.0f},\
     enchantment_glint_override=false,\
     item_model="core:weapon.2",\
-    custom_model_data={flags:[false]}\
+    custom_model_data={flags:[false]},\
+    unbreakable={}\
 ] 1

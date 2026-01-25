@@ -1,0 +1,63 @@
+{
+  "anvil_cost": 1,
+  "description": "",
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "input": {
+                "sprint": true
+              }
+            },
+            "flags": {
+              "is_on_ground": false
+            },
+            "nbt": "{Tags:[\"armor.skyjump.cooltime\"]}"
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [
+                0,
+                0,
+                0.3
+              ],
+              "coordinate_scale": [
+                1,
+                0.8,
+                1
+              ],
+              "magnitude": 1
+            },
+            {
+              "type": "run_function",
+              "function": "core:armor/jump_boots/ct"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "minecraft:leather_boots",
+  "weight": 1
+}
