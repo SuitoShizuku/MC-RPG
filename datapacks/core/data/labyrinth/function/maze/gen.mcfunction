@@ -6,4 +6,6 @@ execute as @n[tag=labyrinth_gen.correct] at @s run function labyrinth:maze/proc_
 # 偽の道を生やす
 scoreboard players set @n[tag=labyrinth_gen.not_correct] Core.Calc.Dummy.b 1
 execute as @n[tag=labyrinth_gen.not_correct] at @s run function labyrinth:maze/proc_3
+# ブロック配置
+function labyrinth:maze/proc_4
 kill @e[tag=labyrinth_gen,type=marker]
