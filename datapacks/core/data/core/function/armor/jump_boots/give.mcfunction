@@ -3,5 +3,6 @@ give @s leather_boots[\
     enchantments={"core:armor/jump_boots/jump":1,"core:armor/jump_boots/jumpct":1},\
     tooltip_display={hidden_components:["enchantments"]},enchantment_glint_override=false,\
     attribute_modifiers=[{id:"core:jump_boots",type:"safe_fall_distance",operation:"add_value",amount:1,slot:"feet"}],\
-    unbreakable={}\
+    unbreakable={},\
+    trim={"material":"core:jump_boots",pattern:"core:jump_boots"}\
 ]

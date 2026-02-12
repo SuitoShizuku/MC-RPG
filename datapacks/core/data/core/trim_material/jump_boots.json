@@ -1,0 +1,7 @@
+{
+    "asset_name": "jumpboots",
+    "description": "trim_material.core.jumpboots",
+    "override_armor_assets": {
+        "leather": "jumpboots"
+    }
+}
