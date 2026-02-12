@@ -1,3 +1,4 @@
+kill @e[tag=labyrinth_gen,type=marker]
 summon marker ~ ~ ~ {Tags:["labyrinth_gen","labyrinth_gen.base"]}
 # 初期化
 execute as @n[tag=labyrinth_gen.base] at @s run function labyrinth:maze/proc_1
